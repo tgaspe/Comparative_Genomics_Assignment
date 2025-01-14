@@ -1,0 +1,1644 @@
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             hmmer3_phmmer-I20250111-155037-0551-75430741-p1m.sequence
+# target sequence database:        /nfs/public/ro/es_codon/newdata/prod/flatfiles/hmmer3/swissprot.fa
+# MSA of hits saved to file:       /nfs/public/rw/es/projects/wp-jdispatcher/sources/prod-hl/jobs/hmmer3_phmmer/interactive/20250111/1550/hmmer3_phmmer-I20250111-155037-0551-75430741-p1m.sto
+# gap extend probability:          0.040000
+# sequence reporting threshold:    E-value <= 1
+# domain reporting threshold:      E-value <= 1
+# domain inclusion threshold:      E-value <= 0.03
+# biased composition HMM filter:   off
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       sp|P35453|HXD13_HUMAN  [L=343]
+Description: Homeobox protein Hox-D13 OS=Homo sapiens OX=9606 GN=HOXD13 PE=1 SV=3
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+   1.5e-227  759.1  21.6   1.7e-227  758.9  21.6    1.0  1  sp|P35453|HXD13_HUMAN     Homeobox protein Hox-D13 OS=Homo sa
+   5.3e-212  707.9  18.6     6e-212  707.8  18.6    1.0  1  sp|P70217|HXD13_MOUSE     Homeobox protein Hox-D13 OS=Mus mus
+   2.4e-208  696.0  19.9   2.7e-208  695.8  19.9    1.0  1  sp|Q5EU41|HXD13_CARPS     Homeobox protein Hox-D13 OS=Carolli
+   1.9e-147  495.8  32.6     2e-142  479.3   7.4    2.8  2  sp|P24344|HXD13_CHICK     Homeobox protein Hox-D13 OS=Gallus 
+   2.9e-100  340.7   6.0    1.3e-99  338.6   3.4    1.9  1  sp|Q9IA17|HXD13_HETFR     Homeobox protein Hox-D13 OS=Heterod
+    1.9e-72  249.3  13.1    1.2e-70  243.4  10.6    2.7  1  sp|Q1KKV4|HXCDA_TAKRU     Homeobox protein Hox-C13a OS=Takifu
+    3.5e-71  245.1  12.8    2.5e-69  239.0  11.7    2.5  1  sp|Q6JIY5|HXCDA_DANRE     Homeobox protein Hox-C13a OS=Danio 
+    8.8e-71  243.8  26.3    1.4e-66  230.0   0.9    2.0  2  sp|Q90X25|HXA13_CHICK     Homeobox protein Hox-A13 OS=Gallus 
+    4.7e-70  241.4  14.7    1.5e-65  226.7   1.0    3.1  2  sp|P50207|HXC13_MOUSE     Homeobox protein Hox-C13 OS=Mus mus
+    9.1e-70  240.5  15.7    1.4e-65  226.7   0.9    3.1  2  sp|P31276|HXC13_HUMAN     Homeobox protein Hox-C13 OS=Homo sa
+      2e-68  236.1  12.7    2.8e-66  229.0  12.8    2.2  1  sp|Q1ECY2|HXBDA_DANRE     Homeobox protein Hox-B13a OS=Danio 
+    2.2e-68  236.0  18.8    2.1e-65  226.2  18.8    2.0  1  sp|Q1KKY3|HXBDA_TAKRU     Homeobox protein Hox-B13a OS=Takifu
+    2.7e-68  235.7  11.7    3.7e-68  235.2  11.2    1.4  1  sp|Q6W990|HXADA_DANRE     Homeobox protein Hox-A13a OS=Danio 
+    3.1e-65  225.6  18.1    1.6e-62  216.7  17.5    2.5  1  sp|Q1KL22|HXADA_TAKRU     Homeobox protein Hox-A13a OS=Takifu
+    1.2e-64  223.7  42.6    1.2e-64  223.7  42.6    2.5  1  sp|P31271|HXA13_HUMAN     Homeobox protein Hox-A13 OS=Homo sa
+    1.6e-64  223.3  43.4    1.6e-64  223.3  43.4    2.5  1  sp|Q62424|HXA13_MOUSE     Homeobox protein Hox-A13 OS=Mus mus
+    1.4e-62  216.8  14.2    1.3e-58  203.9   1.2    3.0  2  sp|Q6JIY4|HXCDB_DANRE     Homeobox protein Hox-C13b OS=Danio 
+    1.5e-61  213.5  12.0    6.6e-60  208.1   1.5    2.1  2  sp|P79724|HXADB_DANRE     Homeobox protein Hox-A13b OS=Danio 
+    3.3e-59  205.8  16.4    1.1e-57  200.8   0.4    2.4  2  sp|Q92826|HXB13_HUMAN     Homeobox protein Hox-B13 OS=Homo sa
+    6.7e-59  204.8  18.3    2.1e-57  199.8   0.6    2.5  2  sp|P70321|HXB13_MOUSE     Homeobox protein Hox-B13 OS=Mus mus
+    9.6e-53  184.6  28.0    4.2e-28  103.6   6.0    3.1  3  sp|Q1KKZ6|HXADB_TAKRU     Homeobox protein Hox-A13b OS=Takifu
+    2.1e-46  163.7   2.7    2.3e-46  163.6   2.7    1.0  1  sp|P50210|HXA13_AMBME     Homeobox protein Hox-A13 (Fragment)
+    5.6e-44  155.8   1.7      7e-44  155.4   0.3    1.6  1  sp|Q90472|HXDDA_DANRE     Homeobox protein Hox-D13a OS=Danio 
+      4e-19   74.1   1.1      6e-19   73.5   1.1    1.2  1  sp|P31263|HXD11_NOTVI     Homeobox protein Hox-D11 OS=Notopht
+    3.6e-18   70.9   3.8    3.8e-18   70.8   3.0    1.4  1  sp|P24342|HXD11_CHICK     Homeobox protein Hox-D11 OS=Gallus 
+    4.9e-18   70.5   9.1    8.8e-18   69.6   2.0    2.3  2  sp|P23812|HXD12_MOUSE     Homeobox protein Hox-D12 OS=Mus mus
+    6.2e-18   70.2   1.6    6.2e-18   70.2   1.6    1.4  1  sp|P24343|HXD12_CHICK     Homeobox protein Hox-D12 OS=Gallus 
+    1.2e-17   69.2   1.8    1.2e-17   69.2   1.8    3.0  1  sp|P35452|HXD12_HUMAN     Homeobox protein Hox-D12 OS=Homo sa
+    1.2e-17   69.2   0.9    1.2e-17   69.2   0.9    2.0  1  sp|Q8K5B8|HXC12_MOUSE     Homeobox protein Hox-C12 OS=Mus mus
+    2.1e-17   68.4   1.3      3e-17   67.9   1.3    1.2  1  sp|Q9IA15|HXD11_HETFR     Homeobox protein Hox-D11 OS=Heterod
+    6.9e-17   66.7   1.9    6.9e-17   66.7   1.9    2.0  1  sp|Q9IA16|HXD12_HETFR     Homeobox protein Hox-D12 OS=Heterod
+    1.1e-16   66.0   1.6    1.1e-16   66.0   1.6    2.6  1  sp|P31275|HXC12_HUMAN     Homeobox protein Hox-C12 OS=Homo sa
+    1.2e-16   65.9   4.6    1.2e-16   65.9   4.6    2.6  1  sp|Q5EU40|HXD12_CARPS     Homeobox protein Hox-D12 OS=Carolli
+    1.3e-16   65.9   2.5    1.9e-16   65.3   2.5    1.2  1  sp|Q1KKT1|HXDBA_TAKRU     Homeobox protein Hox-D11a OS=Takifu
+    1.3e-16   65.8   1.2    1.3e-16   65.8   1.2    2.0  1  sp|Q90471|HXDCA_DANRE     Homeobox protein Hox-D12a OS=Danio 
+    1.7e-16   65.5   4.5    1.7e-16   65.5   4.5    3.7  1  sp|P23813|HXD11_MOUSE     Homeobox protein Hox-D11 OS=Mus mus
+      2e-16   65.2   1.9      2e-16   65.2   1.9    1.9  1  sp|Q1KKT2|HXDCA_TAKRU     Homeobox protein Hox-D12a OS=Takifu
+    2.3e-16   65.0   1.3    3.8e-16   64.3   1.3    1.2  1  sp|Q9YGT0|HXCCB_DANRE     Homeobox protein Hox-C12b OS=Danio 
+    4.1e-16   64.2   7.2    4.1e-16   64.2   7.2    4.0  1  sp|P31277|HXD11_HUMAN     Homeobox protein Hox-D11 OS=Homo sa
+    8.9e-16   63.1   0.7    1.2e-15   62.6   0.7    1.3  1  sp|Q90470|HXDBA_DANRE     Homeobox protein Hox-D11a OS=Danio 
+    1.1e-15   62.7   3.1    1.1e-15   62.7   3.1    2.2  1  sp|Q1KKZ5|HXABB_TAKRU     Homeobox protein Hox-A11b OS=Takifu
+    1.2e-15   62.7   3.1    1.2e-15   62.7   3.1    1.7  1  sp|Q1KKV3|HXCCA_TAKRU     Homeobox protein Hox-C12a OS=Takifu
+    1.6e-15   62.3   3.3    1.6e-15   62.3   3.3    2.2  1  sp|P31270|HXA11_HUMAN     Homeobox protein Hox-A11 OS=Homo sa
+    1.6e-15   62.2   3.7    1.6e-15   62.2   3.7    1.5  1  sp|Q58EL0|HXCBA_DANRE     Homeobox protein Hox-C11a OS=Danio 
+    1.8e-15   62.1   3.6    1.8e-15   62.1   3.6    2.2  1  sp|P31258|HXA11_CHICK     Homeobox protein Hox-A11 OS=Gallus 
+    1.9e-15   62.0   3.4    1.9e-15   62.0   3.4    2.2  1  sp|P31311|HXA11_MOUSE     Homeobox protein Hox-A11 OS=Mus mus
+      2e-15   61.9   3.4      2e-15   61.9   3.4    2.4  1  sp|P31313|HXC11_MOUSE     Homeobox protein Hox-C11 OS=Mus mus
+    2.1e-15   61.9   3.4    2.1e-15   61.9   3.4    2.3  1  sp|O43248|HXC11_HUMAN     Homeobox protein Hox-C11 OS=Homo sa
+    2.7e-15   61.5   2.1      3e-15   61.3   2.1    1.0  1  sp|Q28601|HXC9_SHEEP      Homeobox protein Hox-C9 (Fragment) 
+      3e-15   61.3   4.2    4.9e-14   57.3   2.1    2.2  1  sp|Q9IA14|HXD10_HETFR     Homeobox protein Hox-D10 OS=Heterod
+      3e-15   61.3   1.6    3.5e-15   61.1   1.6    1.0  1  sp|P24341|HXD10_CHICK     Homeobox protein Hox-D10 (Fragment)
+      3e-15   61.3   3.4    5.3e-15   60.5   3.4    1.3  1  sp|Q9DDU1|HXABB_DANRE     Homeobox protein Hox-A11b OS=Danio 
+    3.1e-15   61.3   3.4    5.3e-15   60.5   3.4    1.3  1  sp|Q9DDU2|HXABB_DEVAE     Homeobox protein Hox-A11b OS=Devari
+    3.6e-15   61.1   4.5    3.6e-15   61.1   4.5    2.4  1  sp|Q1KKV2|HXCBA_TAKRU     Homeobox protein Hox-C11a OS=Takifu
+    4.1e-15   60.9   4.0    4.1e-15   60.9   4.0    1.7  1  sp|Q1KL17|HXABA_TAKRU     Homeobox protein Hox-A11a OS=Takifu
+    4.9e-15   60.6   2.3    4.9e-15   60.6   2.3    1.6  1  sp|Q9DDU0|HXABA_DANRE     Homeobox protein Hox-A11a OS=Danio 
+    6.7e-15   60.2   1.2    6.7e-15   60.2   1.2    2.1  1  sp|Q1KKY2|HXB9A_TAKRU     Homeobox protein Hox-B9a OS=Takifug
+    6.7e-15   60.2   2.3    4.5e-14   57.5   1.3    2.2  1  sp|A2T7D1|HXD10_PANTR     Homeobox protein Hox-D10 OS=Pan tro
+    6.9e-15   60.1   0.6    1.2e-14   59.4   0.6    1.3  1  sp|Q9PWM2|HXB9A_DANRE     Homeobox protein Hox-B9a OS=Danio r
+      7e-15   60.1   1.3      7e-15   60.1   1.3    1.8  1  sp|P17482|HXB9_HUMAN      Homeobox protein Hox-B9 OS=Homo sap
+    7.1e-15   60.1   2.6    5.6e-14   57.1   1.6    2.3  1  sp|P28359|HXD10_MOUSE     Homeobox protein Hox-D10 OS=Mus mus
+    8.8e-15   59.8   1.6    8.8e-15   59.8   1.6    1.9  1  sp|P20615|HXB9_MOUSE      Homeobox protein Hox-B9 OS=Mus musc
+    8.9e-15   59.8   1.5    8.9e-15   59.8   1.5    1.5  1  sp|Q9IA13|HXD9_HETFR      Homeobox protein Hox-D9 OS=Heterodo
+    9.1e-15   59.7   1.5    2.1e-14   58.6   1.5    1.6  1  sp|P31274|HXC9_HUMAN      Homeobox protein Hox-C9 OS=Homo sap
+    9.2e-15   59.7   1.5    2.1e-14   58.6   1.5    1.6  1  sp|P09633|HXC9_MOUSE      Homeobox protein Hox-C9 OS=Mus musc
+    9.3e-15   59.7   2.8    5.7e-14   57.1   1.6    2.3  1  sp|P28358|HXD10_HUMAN     Homeobox protein Hox-D10 OS=Homo sa
+    9.4e-15   59.7   2.9    5.7e-14   57.1   1.6    2.3  1  sp|A2D5V0|HXD10_LAGLA     Homeobox protein Hox-D10 OS=Lagothr
+    9.6e-15   59.7   1.3    1.2e-14   59.3   1.3    1.2  1  sp|P51783|HXA9_CAVPO      Homeobox protein Hox-A9 (Fragment) 
+      1e-14   59.6   1.1    1.3e-14   59.2   1.1    1.1  1  sp|Q98924|HXA9_CHICK      Homeobox protein Hox-A9 (Fragment) 
+    1.3e-14   59.2   3.1    5.7e-14   57.1   1.6    2.2  1  sp|A1YFT7|HXD10_SAGLB     Homeobox protein Hox-D10 OS=Saguinu
+    1.7e-14   58.9   0.9    2.1e-14   58.5   0.9    1.0  1  sp|P10179|HMB4_TRIGR      Homeobox protein HB4 (Fragment) OS=
+    1.8e-14   58.7   1.7    3.4e-14   57.9   1.7    1.4  1  sp|Q9IA26|HXA9_HETFR      Homeobox protein Hox-A9 OS=Heterodo
+    1.9e-14   58.7   0.9    1.9e-14   58.7   0.9    2.2  1  sp|Q9PWD6|HXA10_MORSA     Homeobox protein Hox-A10 OS=Morone 
+    2.1e-14   58.6   1.6    2.2e-14   58.5   1.6    1.0  1  sp|P24340|HXD9_CHICK      Homeobox protein Hox-D9 (Fragment) 
+    2.3e-14   58.4   1.0    4.4e-14   57.5   1.0    1.4  1  sp|Q9PWL7|HXBAA_DANRE     Homeobox protein Hox-B10a OS=Danio 
+    2.7e-14   58.2   2.1    2.7e-14   58.2   2.1    1.6  1  sp|P31272|HXB9_XENLA      Homeobox protein Hox-B9 OS=Xenopus 
+    3.1e-14   58.0   2.4    3.1e-14   58.0   2.4    1.5  1  sp|Q9YGS6|HXC9A_DANRE     Homeobox protein Hox-C9a OS=Danio r
+    3.3e-14   57.9   1.1    3.3e-14   57.9   1.1    2.0  1  sp|P09631|HXA9_MOUSE      Homeobox protein Hox-A9 OS=Mus musc
+    3.3e-14   57.9   1.1    3.3e-14   57.9   1.1    1.9  1  sp|P31269|HXA9_HUMAN      Homeobox protein Hox-A9 OS=Homo sap
+    3.4e-14   57.9   0.3    3.4e-14   57.9   0.3    1.8  1  sp|G5EFY5|NOB1_CAEEL      Homeobox protein nob-1 OS=Caenorhab
+    3.6e-14   57.8   2.2    3.6e-14   57.8   2.2    1.5  1  sp|O42502|HXC9A_TAKRU     Homeobox protein Hox-C9a OS=Takifug
+    3.7e-14   57.8   2.2    3.7e-14   57.8   2.2    1.5  1  sp|Q9PVQ9|HXC9_ORYLA      Homeobox protein Hox-C9 OS=Oryzias 
+    4.1e-14   57.6   1.2    4.1e-14   57.6   1.2    3.6  1  sp|P28356|HXD9_HUMAN      Homeobox protein Hox-D9 OS=Homo sap
+    4.8e-14   57.4   0.6    7.5e-14   56.7   0.6    1.4  1  sp|Q9PWL6|HXA9A_DANRE     Homeobox protein Hox-A9a OS=Danio r
+    4.8e-14   57.4   5.1    5.3e-14   57.2   1.7    2.1  1  sp|Q1KKT0|HXDAA_TAKRU     Homeobox protein Hox-D10a OS=Takifu
+    4.8e-14   57.4   0.9    4.8e-14   57.4   0.9    2.1  1  sp|Q9IA27|HXA10_HETFR     Homeobox protein Hox-A10 OS=Heterod
+    5.2e-14   57.3   1.0    5.2e-14   57.3   1.0    2.1  1  sp|Q1KKR7|HXD9B_TAKRU     Homeobox protein Hox-D9b OS=Takifug
+    6.1e-14   57.0   3.0    6.1e-14   57.0   3.0    1.8  1  sp|P50209|HXA9_AMBME      Homeobox protein Hox-A9 (Fragment) 
+    6.7e-14   56.9   0.7      1e-13   56.3   0.7    1.2  1  sp|Q9YGT5|HXA9B_DANRE     Homeobox protein Hox-A9b OS=Danio r
+    7.8e-14   56.7   6.2    8.2e-14   56.6   2.2    2.1  1  sp|Q90469|HXDAA_DANRE     Homeobox protein Hox-D10a OS=Danio 
+      1e-13   56.3   2.4      1e-13   56.3   2.4    3.6  1  sp|P28357|HXD9_MOUSE      Homeobox protein Hox-D9 OS=Mus musc
+      1e-13   56.3   1.5      1e-13   56.3   1.5    1.7  1  sp|Q9PWM6|HXD9A_DANRE     Homeobox protein Hox-D9a OS=Danio r
+    1.1e-13   56.2   1.1    1.1e-13   56.2   1.1    2.0  1  sp|Q1KL16|HXAAA_TAKRU     Homeobox protein Hox-A10a OS=Takifu
+    1.3e-13   56.0   2.6    1.3e-13   56.0   2.6    1.8  1  sp|Q1KKV1|HXCAA_TAKRU     Homeobox protein Hox-C10a OS=Takifu
+    1.4e-13   55.8   0.7    1.4e-13   55.8   0.7    2.0  1  sp|O42506|HXA9A_TAKRU     Homeobox protein Hox-A9a OS=Takifug
+    1.6e-13   55.6   1.8    1.6e-13   55.6   1.8    2.0  1  sp|A2D635|HXC10_MACMU     Homeobox protein Hox-C10 OS=Macaca 
+    1.6e-13   55.6   1.8    1.6e-13   55.6   1.8    2.0  1  sp|A2T6F8|HXC10_MACNE     Homeobox protein Hox-C10 OS=Macaca 
+    1.6e-13   55.6   1.8    1.6e-13   55.6   1.8    1.8  1  sp|A2T7H7|HXC10_PONPY     Homeobox protein Hox-C10 OS=Pongo p
+    1.6e-13   55.6   1.8    1.6e-13   55.6   1.8    2.1  1  sp|P31257|HXC10_MOUSE     Homeobox protein Hox-C10 OS=Mus mus
+    1.6e-13   55.6   1.8    1.6e-13   55.6   1.8    2.1  1  sp|Q9NYD6|HXC10_HUMAN     Homeobox protein Hox-C10 OS=Homo sa
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|P35453|HXD13_HUMAN  Homeobox protein Hox-D13 OS=Homo sapiens OX=9606 GN=HOXD13 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  758.9  21.6  3.5e-230  1.7e-227       1     343 []       1     343 []       1     343 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 758.9 bits;  conditional E-value: 3.5e-230
+  sp|P35453|HXD13_HUMAN   1 msragswdmdglradgggaggapassssssvaaaaasgqcrgflsapvfagthsgraaaaaaaaaaaaaaasgfaypgtsertgssss 88 
+                            msragswdmdglradgggaggapassssssvaaaaasgqcrgflsapvfagthsgraaaaaaaaaaaaaaasgfaypgtsertgssss
+  sp|P35453|HXD13_HUMAN   1 MSRAGSWDMDGLRADGGGAGGAPASSSSSSVAAAAASGQCRGFLSAPVFAGTHSGRAAAAAAAAAAAAAAASGFAYPGTSERTGSSSS 88 
+                            89************************************************************************************** PP
+
+  sp|P35453|HXD13_HUMAN  89 ssssavvaarpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglass 176
+                            ssssavvaarpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglass
+  sp|P35453|HXD13_HUMAN  89 SSSSAVVAARPEAPPAKECPAPTPAAAAAAPPSAPALGYGYHFGNGYYSCRMSHGVGLQQNALKSSPHASLGGFPVEKYMDVSGLASS 176
+                            **************************************************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 177 svpanevparakevsfyqgytspyqhvpgyidmvstfgsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdva 264
+                            svpanevparakevsfyqgytspyqhvpgyidmvstfgsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdva
+  sp|P35453|HXD13_HUMAN 177 SVPANEVPARAKEVSFYQGYTSPYQHVPGYIDMVSTFGSGEPRHEAYISMEGYQSWTLANGWNSQVYCTKDQPQGSHFWKSSFPGDVA 264
+                            **************************************************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 265 lnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdtvs 343
+                            lnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdtvs
+  sp|P35453|HXD13_HUMAN 265 LNQPDMCVYRRGRKKRVPYTKLQLKELENEYAINKFINKDKRRRISAATNLSERQVTIWFQNRRVKDKKIVSKLKDTVS 343
+                            *****************************************************************************97 PP
+
+>> sp|P70217|HXD13_MOUSE  Homeobox protein Hox-D13 OS=Mus musculus OX=10090 GN=Hoxd13 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  707.8  18.6  1.3e-214    6e-212       1     343 []       1     339 []       1     339 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 707.8 bits;  conditional E-value: 1.3e-214
+  sp|P35453|HXD13_HUMAN   1 msragswdmdglradgggaggapassssssvaaaaasgqcrgflsapvfagthsgraaaaaaaaaaaaaaasgfaypgtsertgssss 88 
+                            msr+g+wdmdglradgg+ag+apass sssva   a gqcrgflsapvfagthsgraaaaaaaaaaaaaaas+faypgtsertgssss
+  sp|P70217|HXD13_MOUSE   1 MSRSGTWDMDGLRADGGAAGAAPASS-SSSVA---APGQCRGFLSAPVFAGTHSGRAAAAAAAAAAAAAAASSFAYPGTSERTGSSSS 84 
+                            89*********************976.56774...369************************************************** PP
+
+  sp|P35453|HXD13_HUMAN  89 ssssavvaarpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglass 176
+                            ssssav+a rpeap akecpap  aa aaapp apalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglass
+  sp|P70217|HXD13_MOUSE  85 SSSSAVIATRPEAPVAKECPAPAAAATAAAPPGAPALGYGYHFGNGYYSCRMSHGVGLQQNALKSSPHASLGGFPVEKYMDVSGLASS 172
+                            **************************************************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 177 svpanevparakevsfyqgytspyqhvpgyidmvstfgsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdva 264
+                            svp nevparakevsfyqgytspyqhvpgyidmvstfgsgeprheayismegyqswtlangwnsqvyc kdqpqgshfwkssfpgdva
+  sp|P70217|HXD13_MOUSE 173 SVPTNEVPARAKEVSFYQGYTSPYQHVPGYIDMVSTFGSGEPRHEAYISMEGYQSWTLANGWNSQVYCAKDQPQGSHFWKSSFPGDVA 260
+                            **************************************************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 265 lnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdtvs 343
+                            lnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdtvs
+  sp|P70217|HXD13_MOUSE 261 LNQPDMCVYRRGRKKRVPYTKLQLKELENEYAINKFINKDKRRRISAATNLSERQVTIWFQNRRVKDKKIVSKLKDTVS 339
+                            *****************************************************************************97 PP
+
+>> sp|Q5EU41|HXD13_CARPS  Homeobox protein Hox-D13 OS=Carollia perspicillata OX=40233 GN=HOXD13 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  695.8  19.9  5.5e-211  2.7e-208       9     343 .]       1     333 []       1     333 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 695.8 bits;  conditional E-value: 5.5e-211
+  sp|P35453|HXD13_HUMAN   9 mdglradgggaggapassssssvaaaaasgqcrgflsapvfagthsgraaaaaaaaaaaaaaasgfaypgtsertgssssssssavva 96 
+                            mdglr dgg+ag+apassssss  aaaa gqcrgflsapvfagthsgraaaaaaaaaaaaaaasgfaypgtser gs+ssssssavva
+  sp|Q5EU41|HXD13_CARPS   1 MDGLRTDGGAAGAAPASSSSSSSVAAAAPGQCRGFLSAPVFAGTHSGRAAAAAAAAAAAAAAASGFAYPGTSERAGSASSSSSSAVVA 88 
+                            8*****************999999999************************************************************* PP
+
+  sp|P35453|HXD13_HUMAN  97 arpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglasssvpanevp 184
+                            arpeap akecpap    aa app apalgygyhfgngyyscrmshgvglqqnalkssph+slggfpvekymdvsglasssvpanevp
+  sp|Q5EU41|HXD13_CARPS  89 ARPEAPSAKECPAPGT--AATAPPGAPALGYGYHFGNGYYSCRMSHGVGLQQNALKSSPHSSLGGFPVEKYMDVSGLASSSVPANEVP 174
+                            ************9864..4578****************************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 185 arakevsfyqgytspyqhvpgyidmvstfgsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdvalnqpdmcv 272
+                            arakevsfyqgytspyqhvpgyidmvstfgsgeprheayismegyqswtlangwnsqvyc kdqpqgshfwkssfpgdvalnqpdmcv
+  sp|Q5EU41|HXD13_CARPS 175 ARAKEVSFYQGYTSPYQHVPGYIDMVSTFGSGEPRHEAYISMEGYQSWTLANGWNSQVYCAKDQPQGSHFWKSSFPGDVALNQPDMCV 262
+                            **************************************************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdtvs 343
+                            yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdtvs
+  sp|Q5EU41|HXD13_CARPS 263 YRRGRKKRVPYTKLQLKELENEYAINKFINKDKRRRISAATNLSERQVTIWFQNRRVKDKKIVSKLKDTVS 333
+                            *********************************************************************97 PP
+
+>> sp|P24344|HXD13_CHICK  Homeobox protein Hox-D13 OS=Gallus gallus OX=9031 GN=HOXD13 PE=2 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8  22.1   0.00011     0.052      27      82 ..       8      63 ..       2      71 .. 0.80
+   2 !  479.3   7.4  4.3e-145    2e-142     107     343 .]      65     301 .]      57     301 .] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 0.00011
+  sp|P35453|HXD13_HUMAN 27 ssssvaaaaasgqcrgflsapvfagthsgraaaaaaaaaaaaaaasgfaypgtser 82
+                           ss         gqcr+fls+pvf + h+graaaaaaaaa+  a a g    g + r
+  sp|P24344|HXD13_CHICK  8 SSGGGGGGGTPGQCRNFLSSPVFGAAHTGRAAAAAAAAASGFAYAGGGERSGAAAR 63
+                           44555667889*******************99999888888888888777777665 PP
+
+  == domain 2  score: 479.3 bits;  conditional E-value: 4.3e-145
+  sp|P35453|HXD13_HUMAN 107 cpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglasssvpanevparakevsfyq 194
+                             p       + app+apalgygyhfgngyyscrms+gvg+qqnalks phas+ggfpvekymdvs+l s+svpanev  rakevs yq
+  sp|P24344|HXD13_CHICK  65 DPPAKDCPGSGAPPAAPALGYGYHFGNGYYSCRMSNGVGIQQNALKSPPHASIGGFPVEKYMDVSSLTSTSVPANEVSTRAKEVSSYQ 152
+                            344445667789**************************************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 195 gytspyqhvpgyidmvstfgsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdvalnqpdmcvyrrgrkkrvp 282
+                            gyt+pyqhvpgyidmvstfgsgeprhe yismegyqswtlangwn qvyc kdq q+shfwkssfpgdvalnqp+mcvyrrgrkkrvp
+  sp|P24344|HXD13_CHICK 153 GYTNPYQHVPGYIDMVSTFGSGEPRHETYISMEGYQSWTLANGWNGQVYCAKDQTQSSHFWKSSFPGDVALNQPEMCVYRRGRKKRVP 240
+                            **************************************************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 283 ytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdtvs 343
+                            ytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkd vs
+  sp|P24344|HXD13_CHICK 241 YTKLQLKELENEYAINKFINKDKRRRISAATNLSERQVTIWFQNRRVKDKKIVSKLKDNVS 301
+                            **********************************************************997 PP
+
+>> sp|Q9IA17|HXD13_HETFR  Homeobox protein Hox-D13 OS=Heterodontus francisci OX=7792 GN=HOXD13 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  338.6   3.4  2.6e-102   1.3e-99      91     342 ..      33     283 ..      26     284 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 338.6 bits;  conditional E-value: 2.6e-102
+  sp|P35453|HXD13_HUMAN  91 ssavvaarpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglasssv 178
+                             +  v  r  +  ++ +   +p  a  +pp+ pa++ygyhfg++yyscr   +vg+qq  lks  hasl+g+pv+kymdvs+l ++ v
+  sp|Q9IA17|HXD13_HETFR  33 PAYTVGDRTHSVISESAKQCSPCPAPTSPPN-PAISYGYHFGSSYYSCR---NVGIQQTGLKSGAHASLAGYPVDKYMDVSSLTNTPV 116
+                            4445666666666666777778888889997.9***************8...3899******************************** PP
+
+  sp|P35453|HXD13_HUMAN 179 panevparakevsfyqgytspyqhvpgyidm..vstf.gsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdv 263
+                            p +ev arake +fyq+y +pyq+v gy+d+  v t+ g geprhea ismegyq wt+an+wn qvyc kdq q  hfwks + gdv
+  sp|Q9IA17|HXD13_HETFR 117 PTDEVSARAKEFAFYQSYPNPYQRVSGYLDVpvVPTIsGHGEPRHEALISMEGYQPWTFANSWNGQVYCPKDQTQTPHFWKSPLSGDV 204
+                            *****************************95536786589************************************************ PP
+
+  sp|P35453|HXD13_HUMAN 264 alnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdtv 342
+                              nq d+ +yrrgrkkrvpytk qlkele eya nkfi k+krrris atnl+erqvtiwfqnrrvk+kk+vsk+k+ +
+  sp|Q9IA17|HXD13_HETFR 205 MHNQTDINIYRRGRKKRVPYTKTQLKELEREYATNKFITKEKRRRISTATNLTERQVTIWFQNRRVKEKKVVSKVKENI 283
+                            ****************************************************************************976 PP
+
+>> sp|Q1KKV4|HXCDA_TAKRU  Homeobox protein Hox-C13a OS=Takifugu rubripes OX=31033 GN=hoxc13a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  243.4  10.6   2.4e-73   1.2e-70     117     340 ..      85     300 ..      71     302 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 243.4 bits;  conditional E-value: 2.4e-73
+  sp|P35453|HXD13_HUMAN 117 aappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglasssvpanevparakevsfyqgytspyqhvp 204
+                                s+ +l+ygy fgn yy cr+sh+ +   n l+  p  s    p eky +     ss++p  e+ +rake +fy ++ s yq vp
+  sp|Q1KKV4|HXCDA_TAKRU  85 PQTSSSASLSYGYPFGNPYYGCRLSHSHN--VN-LQQKP-CSY--HPAEKYAEP----SSALPTEELSSRAKEFAFYPSFASSYQAVP 162
+                            33456678******************865..47.67788.565..6*****864....4679************************** PP
+
+  sp|P35453|HXD13_HUMAN 205 gyidm.v..stfgsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdvalnqpdmcvyrrgrkkrvpytklqlk 289
+                            gy+d+ v  s  g  eprh+a i megyq w l+ngw+ qvyc+k+q q++h+wks fp  v   qp++  yrrgrkkrvpytklqlk
+  sp|Q1KKV4|HXCDA_TAKRU 163 GYLDVsVmpSISGHPEPRHDALIPMEGYQHWALSNGWDGQVYCSKEQTQSTHLWKSPFPD-VVPLQPEVSSYRRGRKKRVPYTKLQLK 249
+                            ***9645224457889*******************************************5.55569********************** PP
+
+  sp|P35453|HXD13_HUMAN 290 eleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkd 340
+                            ele eya +kfi kdkrrrisaatnlserqvtiwfqnrrvk+kk++sk k 
+  sp|Q1KKV4|HXCDA_TAKRU 250 ELEKEYAASKFITKDKRRRISAATNLSERQVTIWFQNRRVKEKKFISKSKS 300
+                            ************************************************986 PP
+
+>> sp|Q6JIY5|HXCDA_DANRE  Homeobox protein Hox-C13a OS=Danio rerio OX=7955 GN=hoxc13a PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  239.0  11.7   5.2e-72   2.5e-69     116     339 ..      84     299 ..      59     302 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 239.0 bits;  conditional E-value: 5.2e-72
+  sp|P35453|HXD13_HUMAN 116 aaappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglasssvpanevparakevsfyqgytspyqhv 203
+                            a    s+ +l+ygy fgn yy cr+sh+ +   n l+  p  s    p eky +     ss++p  e+ +rake +fy +  s yq v
+  sp|Q6JIY5|HXCDA_DANRE  84 APQTSSSASLSYGYPFGNPYYGCRLSHSHN--VN-LQQKP-CSY--HPAEKYAET----SSALPTEELSSRAKEFAFYPSLASSYQAV 161
+                            333446678******************865..47.67788.565..6*****874....4579************************* PP
+
+  sp|P35453|HXD13_HUMAN 204 pgyidm..vstfg.sgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdvalnqpdmcvyrrgrkkrvpytklql 288
+                            pgy+dm  v +++   eprh+a i megyq w l+ngw+ qvyc+k+q q+sh+wks fp  v   qp++  yrrgrkkrvpytk+ql
+  sp|Q6JIY5|HXCDA_DANRE 162 PGYLDMsvVPSISvHPEPRHDALIPMEGYQHWALSNGWDGQVYCSKEQTQSSHLWKSPFPD-VVPLQPEVSSYRRGRKKRVPYTKIQL 248
+                            *****863456662579*******************************************5.55569********************* PP
+
+  sp|P35453|HXD13_HUMAN 289 keleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklk 339
+                            kele eya +kfi kdkrrrisa tnlserqvtiwfqnrrvk+kk+vsk k
+  sp|Q6JIY5|HXCDA_DANRE 249 KELEKEYAASKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKFVSKSK 299
+                            *************************************************88 PP
+
+>> sp|Q90X25|HXA13_CHICK  Homeobox protein Hox-A13 OS=Gallus gallus OX=9031 GN=HOXA13 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.7  18.6   5.8e-05     0.028      57     153 ..      20     111 ..      13     117 .. 0.72
+   2 !  230.0   0.9     3e-69   1.4e-66     175     341 ..     120     289 ..     115     290 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 5.8e-05
+  sp|P35453|HXD13_HUMAN  57 aaaaaaaaaaaaaaasgfaypgtsertgssssssssavvaarpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgv 144
+                            a +  aaaaaa    + +a+p+     ++++ +ss a  aa    p  k+c +p  aa      s  al ygy fg+gyy crm+h  
+  sp|Q90X25|HXA13_CHICK  20 AGSNFAAAAAANPCRNLMAHPAPLAAPSAAAYTSSEAP-AAGMAEPAVKQC-SPCSAAV-Q-SSSGAALPYGY-FGSGYYPCRMTHHN 102
+                            334455666666778889***99887776666666665.555556999999.6876543.4.457789****8.9***********98 PP
+
+  sp|P35453|HXD13_HUMAN 145 glqqnalks 153
+                            +++  a  +
+  sp|Q90X25|HXA13_CHICK 103 AIKSCAQPA 111
+                            887766655 PP
+
+  == domain 2  score: 230.0 bits;  conditional E-value: 3e-69
+  sp|P35453|HXD13_HUMAN 175 sssvpanevparakevsfyqgyt.spyqhvpgyidm..vstfg.sgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkss 258
+                             +sv   e  +rake +fyqgy   pyq vpgy+d+  v t+g  geprh++ + m++yq w + ngwn qvyc k+q q  h+wks+
+  sp|Q90X25|HXA13_CHICK 120 DTSVSGEEFTSRAKEFAFYQGYAaGPYQPVPGYLDVpvVPTIGgPGEPRHDSLLPMDSYQPWAITNGWNGQVYCPKEQSQPPHLWKST 207
+                            5789999***************736*********95536898626******************************************* PP
+
+  sp|P35453|HXD13_HUMAN 259 fpgdvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdt 341
+                            +p dv  +  d   yrrgrkkrvpytk+qlkele eya nkfi kdkrrrisa tnlserqvtiwfqnrrvk+kk+++klk t
+  sp|Q90X25|HXA13_CHICK 208 LP-DVVSHPSDANSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTT 289
+                            *9.8888999**********************************************************************987 PP
+
+>> sp|P50207|HXC13_MOUSE  Homeobox protein Hox-C13 OS=Mus musculus OX=10090 GN=Hoxc13 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.3   6.7   1.4e-07   6.9e-05      98     151 ..      94     143 ..      81     152 .. 0.70
+   2 !  226.7   1.0     3e-68   1.5e-65     175     339 ..     155     321 ..     148     323 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 27.3 bits;  conditional E-value: 1.4e-07
+  sp|P35453|HXD13_HUMAN  98 rpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnal 151
+                             p    a++c ap pa       sa  lgygy fg +yy cr+sh+v+lqq   
+  sp|P50207|HXC13_MOUSE  94 IPAPEAARQC-APPPAPP-T-SSSA-TLGYGYPFGGSYYGCRLSHNVNLQQKPC 143
+                            4433344555.5555432.2.2344.79**********************9865 PP
+
+  == domain 2  score: 226.7 bits;  conditional E-value: 3e-68
+  sp|P35453|HXD13_HUMAN 175 sssvpanevparakevsfyqgytspyqhvpgyidm.v.s.tfgsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssf 259
+                            s ++p +++ +rake +fy ++ s yq +pgy+d+ v     g  eprh+a i +egyq w l+ngw+sqvyc+k+q q++h+wks f
+  sp|P50207|HXC13_MOUSE 155 SGALPGDDLSSRAKEFAFYPSFASSYQAMPGYLDVsVvPgISGHPEPRHDALIPVEGYQHWALSNGWDSQVYCSKEQSQSAHLWKSPF 242
+                            6789*****************************97331313456699***************************************** PP
+
+  sp|P35453|HXD13_HUMAN 260 pgdvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklk 339
+                            p  v   qp++  yrrgrkkrvpytk+qlkele eya +kfi k+krrrisa tnlserqvtiwfqnrrvk+kk+vsk k
+  sp|P50207|HXC13_MOUSE 243 PD-VVPLQPEVSSYRRGRKKRVPYTKVQLKELEKEYAASKFITKEKRRRISATTNLSERQVTIWFQNRRVKEKKVVSKSK 321
+                            *5.55569*********************************************************************987 PP
+
+>> sp|P31276|HXC13_HUMAN  Homeobox protein Hox-C13 OS=Homo sapiens OX=9606 GN=HOXC13 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.2   7.8     3e-07   0.00014      97     151 ..      95     145 ..      79     153 .. 0.71
+   2 !  226.7   0.9     3e-68   1.4e-65     175     339 ..     157     323 ..     151     325 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 26.2 bits;  conditional E-value: 3e-07
+  sp|P35453|HXD13_HUMAN  97 arpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnal 151
+                              p    a++c ap pa       sa  lgygy fg +yy cr+sh+v+lqq   
+  sp|P31276|HXC13_HUMAN  95 DIPAPEAARQC-APPPAPP-T-SSSA-TLGYGYPFGGSYYGCRLSHNVNLQQKPC 145
+                            44433345555.5655432.2.2344.79**********************9865 PP
+
+  == domain 2  score: 226.7 bits;  conditional E-value: 3e-68
+  sp|P35453|HXD13_HUMAN 175 sssvpanevparakevsfyqgytspyqhvpgyidm.v.s.tfgsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssf 259
+                            s ++p +++ +rake +fy ++ s yq +pgy+d+ v     g  eprh+a i +egyq w l+ngw+sqvyc+k+q q++h+wks f
+  sp|P31276|HXC13_HUMAN 157 SGALPGDDLSSRAKEFAFYPSFASSYQAMPGYLDVsVvPgISGHPEPRHDALIPVEGYQHWALSNGWDSQVYCSKEQSQSAHLWKSPF 244
+                            6789*****************************97331313456699***************************************** PP
+
+  sp|P35453|HXD13_HUMAN 260 pgdvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklk 339
+                            p  v   qp++  yrrgrkkrvpytk+qlkele eya +kfi k+krrrisa tnlserqvtiwfqnrrvk+kk+vsk k
+  sp|P31276|HXC13_HUMAN 245 PD-VVPLQPEVSSYRRGRKKRVPYTKVQLKELEKEYAASKFITKEKRRRISATTNLSERQVTIWFQNRRVKEKKVVSKSK 323
+                            *5.55569*********************************************************************987 PP
+
+>> sp|Q1ECY2|HXBDA_DANRE  Homeobox protein Hox-B13a OS=Danio rerio OX=7955 GN=hoxb13a PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  229.0  12.8   5.8e-69   2.8e-66      89     342 ..      64     302 ..      34     303 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 229.0 bits;  conditional E-value: 5.8e-69
+  sp|P35453|HXD13_HUMAN  89 ssssavvaarpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglass 176
+                            s  +  v+    a   k+c  p p    a   + p + ygy fgn+yy crm +g +l+ +   + p a l ++  ekymd   +   
+  sp|Q1ECY2|HXBDA_DANRE  64 SYPTVDVSTSSSAESGKQC-TPCPTVPQA-SSTGP-IPYGY-FGNSYYPCRMGRG-SLK-SC--TQPSA-L-SYTAEKYMDT-PVT-- 138
+                            3344456777888999999.599987765.45778.79**8.9*********988.575.44..46865.8.599*****96.343.. PP
+
+  sp|P35453|HXD13_HUMAN 177 svpanevparakevsfyqgytspyqhvpgyidm..vstfgsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpgd 262
+                               + e p rake +fy +y spyq + +y+d+  v t+g+geprh++ + m++yq w langw sq+yc+kdq q+ h+wks++ +d
+  sp|Q1ECY2|HXBDA_DANRE 139 ---SEEYPTRAKEFAFYHSYPSPYQSMASYLDVsvVQTLGTGEPRHDSLLPMDSYQPWALANGWGSQMYCSKDQGQAGHLWKSAL-AD 222
+                            ...35889**********************9954368*********************************************997.69 PP
+
+  sp|P35453|HXD13_HUMAN 263 valnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdtv 342
+                            v  +q d   +rrgrkkr+pytk+qlkele eya nkfi kdkrr+isa tnlserq+tiwfqnrrvk+kk+++k+k+t 
+  sp|Q1ECY2|HXBDA_DANRE 223 VVAHQHDGGSFRRGRKKRIPYTKVQLKELEKEYAANKFITKDKRRKISAVTNLSERQITIWFQNRRVKEKKFIAKVKNTA 302
+                            999**************************************************************************985 PP
+
+>> sp|Q1KKY3|HXBDA_TAKRU  Homeobox protein Hox-B13a OS=Takifugu rubripes OX=31033 GN=hoxb13a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  226.2  18.8   4.3e-68   2.1e-65      41     340 ..      32     317 ..      27     320 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 226.2 bits;  conditional E-value: 4.3e-68
+  sp|P35453|HXD13_HUMAN  41 rgflsapvfagthsgraaaaaaaaaaaaaaasgfaypgtsertgssssssssavvaarpeappakecpaptpaaaaaappsapalgyg 128
+                            +g++ +  fa+++  +  a +aaaaa     sg+ + +t   t   +++ss+  + +  +      cpa t     +   +a al y+
+  sp|Q1KKY3|HXBDA_TAKRU  32 EGLVGSGNFAASQCRNIMAHSAAAAALGGHPSGLVHSSTGYSTVDVTATSSNDTLTSSGKQCATGPCPAATVPHQ-S-SSAATALPYS 117
+                            677888889999998888989999999999**********99998888777777777777677789999986544.4.457899***9 PP
+
+  sp|P35453|HXD13_HUMAN 129 yhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglasssvpanevparakevsfyqgytspyqhvpgyidm..vstfg 214
+                            y fgngyy crm +g +l+     s  +a+ g+    +ymd + + s    +n    rake +fy +y spyq + +y+d+  v t+g
+  sp|Q1KKY3|HXBDA_TAKRU 118 Y-FGNGYYPCRMGRG-SLK-----SCTQAA-GAALSSQYMDTT-VNS-DEYSN---HRAKEFAFYHSYPSPYQSMASYLDVsvVQTLG 192
+                            8.9********9776.453.....333443.3334468***76.544.44566...489*******************9954368*** PP
+
+  sp|P35453|HXD13_HUMAN 215 sgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfin 302
+                            +geprh+  + m++yq w l ngw  q+yc+kdq q+ h+wks++ +dv  +q d   +rrgrkkr+pytk+qlkele eya nkfi 
+  sp|Q1KKY3|HXBDA_TAKRU 193 AGEPRHDTLLPMDSYQPWALTNGWGGQMYCSKDQGQAGHLWKSAL-ADVVAHQHDGSPFRRGRKKRIPYTKVQLKELEKEYAANKFIT 279
+                            ******************************************997.69999************************************* PP
+
+  sp|P35453|HXD13_HUMAN 303 kdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkd 340
+                            kdkrr+isaatnlserq+tiwfqnrrvk+kk+v+k+k 
+  sp|Q1KKY3|HXBDA_TAKRU 280 KDKRRKISAATNLSERQITIWFQNRRVKEKKFVAKVKS 317
+                            ***********************************997 PP
+
+>> sp|Q6W990|HXADA_DANRE  Homeobox protein Hox-A13a OS=Danio rerio OX=7955 GN=hoxa13a PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.2  11.2   7.7e-71   3.7e-68      91     340 ..      62     308 ..      50     310 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 235.2 bits;  conditional E-value: 7.7e-71
+  sp|P35453|HXD13_HUMAN  91 ssavvaarpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpv.ekymdvsglasss 177
+                             s+ vaa       k+c +p  a       sa +++ygy  g gyy crmsh  g     +k+  ++  +g p  ekymd s  as+ 
+  sp|Q6W990|HXADA_DANRE  62 PSSEVAAAAAGDSGKQC-SPCSA--VQGSASA-SISYGYFGGGGYYPCRMSHHHGS-GGGVKTCAQSPASGSPYgEKYMDTS--ASTG 142
+                            34445555566777777.46544..3444566.699***99*************96.5788999999999999659****87..5554 PP
+
+  sp|P35453|HXD13_HUMAN 178 vpanevparakevsfyqgyt.spyqhvpgyidm..vstf.gsgeprheayismegyqswtla.ngwnsqvyctkdqpqgshfwkssfp 260
+                               +   +rake ++y +y  spyq vp+y+d+  v  + g +eprhe+ + me+yq w +  +gwn qvyctk+q q  + wkss+p
+  sp|Q6W990|HXADA_DANRE 143 --EDYTSSRAKEFALYSSYAsSPYQPVPSYLDVpvVQAIsGPSEPRHESLLPMESYQPWAITtSGWNGQVYCTKEQQQTGNVWKSSIP 228
+                            ..356789***********637*********964255543889****************98538************************ PP
+
+  sp|P35453|HXD13_HUMAN 261 gdvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkd 340
+                              v+    d   +rrgrkkrvpytk+qlkele eya nkfi kdkrrrisa tnlserqvtiwfqnrrvk+kk+v+klk 
+  sp|Q6W990|HXADA_DANRE 229 ESVSHGGADGSSFRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISAQTNLSERQVTIWFQNRRVKEKKVVNKLKS 308
+                            ******************************************************************************97 PP
+
+>> sp|Q1KL22|HXADA_TAKRU  Homeobox protein Hox-A13a OS=Takifugu rubripes OX=31033 GN=hoxa13a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  216.7  17.5   3.3e-65   1.6e-62      92     340 ..      64     300 ..      35     302 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 216.7 bits;  conditional E-value: 3.3e-65
+  sp|P35453|HXD13_HUMAN  92 savvaarpeappakecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnalkssphaslggfpvekymdvsglasssvp 179
+                            s  v       p k+c +p   +aa    s+ +l ygy fg+gyy crmsh  +++ +   + p ++   +  ekymd s  a+s   
+  sp|Q1KL22|HXADA_TAKRU  64 SCDVPTSAIGEPVKQC-SP--CSAAQ-NSSSASLPYGY-FGSGYYPCRMSHHSSIK-SC-SAQPPSA---YG-EKYMDTS--ATS--- 135
+                            3444444445556666.34..33333.4455689***8.9***********99886.44.4566443...43.8****86..433... PP
+
+  sp|P35453|HXD13_HUMAN 180 anevparakevsfyqgyts.pyqhvpgyidm..vstfgs.geprheayismegyqswtla.ngwnsqvyctkdqpqgshfwkssfpgd 262
+                             ++  +rake +fy  y s pyq vp+y+d+  v t+++ +e rhe+ +sme+yq wtla ngwnsqvyc k+qpq+ h+wkss    
+  sp|Q1KL22|HXADA_TAKRU 136 -DDFTSRAKEFAFYPTYPSgPYQPVPSYLDVpvVPTISApSEARHESLLSMESYQPWTLApNGWNSQVYCAKEQPQAGHMWKSSVSDA 222
+                            .346689**********765*********9653689875389*****************879**********************9888 PP
+
+  sp|P35453|HXD13_HUMAN 263 valnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkd 340
+                             +    d   yrrgrkkrvpytk+qlkele eya nkfi kdkrrrisa tnlserqvtiwfqnrrvk+kk+v+klk 
+  sp|Q1KL22|HXADA_TAKRU 223 TSHTGGDSGSYRRGRKKRVPYTKVQLKELEREYAANKFITKDKRRRISAQTNLSERQVTIWFQNRRVKEKKVVNKLKT 300
+                            888999**********************************************************************94 PP
+
+>> sp|P31271|HXA13_HUMAN  Homeobox protein Hox-A13 OS=Homo sapiens OX=9606 GN=HOXA13 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  223.7  42.6   2.5e-67   1.2e-64      18     341 ..      65     387 ..      61     388 .] 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 223.7 bits;  conditional E-value: 2.5e-67
+  sp|P35453|HXD13_HUMAN  18 gaggapassssssvaaaaasgqcrgflsapvfagthsgraaaaaaaaaaaaaaasgfaypgtsertgssssssssavvaarpeappak 105
+                            +agg  + +++++ aaaaa++qcr++++ p   +  ++ a ++a   a  +aaa++ a  + +   ++++sss     a    a  ak
+  sp|P31271|HXA13_HUMAN  65 AAGGNFSVAAAAAAAAAAAANQCRNLMAHPAPLAPGAASAYSSAPGEAPPSAAAAAAAAAAAA-AAAAAASSSGGPGPAGPAGAEAAK 151
+                            57777777778888999999******9988766655555555554444444444443433333.333444444445556666788899 PP
+
+  sp|P35453|HXD13_HUMAN 106 ecpaptpaaaaaappsapalgygyhfgngyysc.rms.hgvglqqnalkssphaslggfpvekymdvsglasssvpanevparakevs 191
+                            +c +p  aaa ++     al ygy fg+gyy c rm  h  +++  a + +  a+ ++f  +kymd +g a+      e  +rake +
+  sp|P31271|HXA13_HUMAN 152 QC-SPCSAAAQSS-SGPAALPYGY-FGSGYYPCaRMGpHPNAIKSCA-QPASAAAAAAF-ADKYMDTAGPAA-----EEFSSRAKEFA 229
+                            99.5887666554.445589***8.9******956752444444444.34444555666.477777777554.....45556666666 PP
+
+  sp|P35453|HXD13_HUMAN 192 fy.qgyt.spyqh...vpgyidm..vstf.gsgeprheay.ismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdvalnqpdm 270
+                            fy qgy   py h   +pgy+dm  v  + g ge rhe   + me+yq w l ngwn q+yc k+q q  h+wks++p dv  +  d 
+  sp|P31271|HXA13_HUMAN 230 FYhQGYAaGPYHHhqpMPGYLDMpvVPGLgGPGESRHEPLgLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLP-DVVSHPSDA 316
+                            554566424664323379****96334562579*****75499**********************************9.8888999** PP
+
+  sp|P35453|HXD13_HUMAN 271 cvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdt 341
+                              yrrgrkkrvpytk+qlkele eya nkfi kdkrrrisa tnlserqvtiwfqnrrvk+kk+++klk t
+  sp|P31271|HXA13_HUMAN 317 SSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTT 387
+                            ********************************************************************977 PP
+
+>> sp|Q62424|HXA13_MOUSE  Homeobox protein Hox-A13 OS=Mus musculus OX=10090 GN=Hoxa13 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  223.3  43.4   3.3e-67   1.6e-64      18     341 ..      65     385 ..      61     386 .] 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 223.3 bits;  conditional E-value: 3.3e-67
+  sp|P35453|HXD13_HUMAN  18 gaggapassssssvaaaaasgqcrgflsapvfagthsgraaaaaaaaaaaaaaasgfaypgtsertgssssssssavvaarpeappak 105
+                            +agg  + +++++ aaaaa++qcr++++ p   +  ++ a ++a   a  +aaa++ a  + +   ++++sss     a    a  ak
+  sp|Q62424|HXA13_MOUSE  65 AAGGNFSVAAAAAAAAAAAANQCRNLMAHPAPLAPGAAAAYSSAPGEAPPSAAAAAAA-AAAAAAAAAAASSSGGPGPAGPAGAEAAK 151
+                            57777777778888999999******99998766655544444444444444444433.33344444444444555555556688899 PP
+
+  sp|P35453|HXD13_HUMAN 106 ecpaptpaaaaaappsapalgygyhfgngyyscrmshgvglqqnalkssp.haslggfpvekymdvsglasssvpanevparakevsf 192
+                            +c +p  aaa ++     al ygy fg+gyy c     +g   na+ks    as ++   +kymd +g a+    +           +
+  sp|Q62424|HXA13_MOUSE 152 QC-SPCSAAAQSS-SGPAALPYGY-FGSGYYPCAR---MGPHPNAIKSCAqPASAAAAFADKYMDTAGPAAEEFSSRAKEFAFYHQGY 233
+                            99.5887666554.445589***8.9*******64...4567889988641577777778*****99987766655554444455555 PP
+
+  sp|P35453|HXD13_HUMAN 193 yqgytspyqhvpgyidm..vstf.gsgeprheay.ismegyqswtlangwnsqvyctkdqpqgshfwkssfpgdvalnqpdmcvyrrg 276
+                              g    +q vpgy+dm  v  + g ge rhe   + me+yq w l ngwn q+yc k+q q  h+wks++p dv  +  d   yrrg
+  sp|Q62424|HXA13_MOUSE 234 AAGPYHHHQPVPGYLDMpvVPGLgGPGESRHEPLgLPMESYQPWALPNGWNGQMYCPKEQTQPPHLWKSTLP-DVVSHPSDASSYRRG 320
+                            55655566669*****96334562579*****75499**********************************9.8888999******** PP
+
+  sp|P35453|HXD13_HUMAN 277 rkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdt 341
+                            rkkrvpytk+qlkele eya nkfi kdkrrrisa tnlserqvtiwfqnrrvk+kk+++klk t
+  sp|Q62424|HXA13_MOUSE 321 RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTT 385
+                            **************************************************************977 PP
+
+>> sp|Q6JIY4|HXCDB_DANRE  Homeobox protein Hox-C13b OS=Danio rerio OX=7955 GN=hoxc13b PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.2   2.6   0.00016     0.079     120     150 ..      55      87 ..      48      93 .. 0.79
+   2 !  203.9   1.2   2.6e-61   1.3e-58     170     338 ..      97     263 ..      87     268 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 17.2 bits;  conditional E-value: 0.00016
+  sp|P35453|HXD13_HUMAN 120 psapalgygyhfgngyyscrms..hgvglqqna 150
+                             s  +lgygy fg+ yy cr+s  h+v+lqq +
+  sp|Q6JIY4|HXCDB_DANRE  55 SSGTSLGYGYAFGSPYYGCRLSysHNVNLQQKS 87 
+                            57789***************8533778888865 PP
+
+  == domain 2  score: 203.9 bits;  conditional E-value: 2.6e-61
+  sp|P35453|HXD13_HUMAN 170 vsglasssvpanevparakevsfyqgytspyqhvpgyidmvstfg.sg..eprheayismegyqswtlangwnsqvyctkdqpqgshf 254
+                                 s ++pa e+ +r+ke ++y ++ s yq vpgy+d+    g s+  e rhea + m++yq w l+ngw+ q+yc+k+q   +h+
+  sp|Q6JIY4|HXCDB_DANRE  97 T----SGALPAEELSSRSKEFAIYPSFASSYQTVPGYLDVPVVPGiSAhpESRHEALFPMDSYQHWALSNGWDEQLYCSKEQTHFNHL 180
+                            3....4568******************************84444434312679*********************************** PP
+
+  sp|P35453|HXD13_HUMAN 255 wkssfpgdvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivskl 338
+                            wks f +dv  +q +m  yrrgrkkrvpytk+qlkele eya +kfi kd+rrrisa t+lserqvtiwfqnrrvk+kk+v k 
+  sp|Q6JIY4|HXCDB_DANRE 181 WKSQF-SDVVPHQAEMNGYRRGRKKRVPYTKIQLKELEKEYAASKFITKDRRRRISATTSLSERQVTIWFQNRRVKEKKFVCKS 263
+                            *****.5999**********************************************************************9985 PP
+
+>> sp|P79724|HXADB_DANRE  Homeobox protein Hox-A13b OS=Danio rerio OX=7955 GN=hoxa13b PE=2 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.8   3.2     0.015       7.3      90     141 ..      59     105 ..      38     112 .. 0.71
+   2 !  208.1   1.5   1.4e-62   6.6e-60     176     339 ..     121     286 ..     116     289 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.015
+  sp|P35453|HXD13_HUMAN  90 sssavvaarpeappakecpaptpaaaaaappsapalgygyhfgngyyscrms 141
+                             +s+ v       p k+c +p   +a    psa +l ygy fg +yy crm 
+  sp|P79724|HXADB_DANRE  59 YTSSEVPVSGMGEPVKQC-SPC--SAVQNTPSA-SLPYGY-FGGSYYPCRMP 105
+                            333444445556778888.465..445567898.69***8.9999*****97 PP
+
+  == domain 2  score: 208.1 bits;  conditional E-value: 1.4e-62
+  sp|P35453|HXD13_HUMAN 176 ssvpanevparakevsfyqgyts.pyqhvpgyidm..vstfgs.geprheayismegyqswtlangwnsqvyctkdqpqgshfwkssf 259
+                            +sv   e p+rake +fyqgy+s pyq vp+y+d+  v  +++ +eprhe+ + +e yq w + ngw+s vyc kdq q+s +wkss+
+  sp|P79724|HXADB_DANRE 121 TSVSGEEFPSRAKEFAFYQGYSSgPYQPVPSYLDVpvVPALSApSEPRHESLLPVETYQPWAITNGWSSPVYCPKDQTQSSTLWKSSI 208
+                            78999****************866*********965255665438******************************************9 PP
+
+  sp|P35453|HXD13_HUMAN 260 pgdvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklk 339
+                              d   +  d +  rrgrkkrvpytk+qlkele eya nkfi kdkrrrisa tnl+erqvtiwfqnrrvk+kk+v+k k
+  sp|P79724|HXADB_DANRE 209 Q-DTV-SGTDGASVRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISAHTNLTERQVTIWFQNRRVKEKKVVNKYK 286
+                            7.654.45677888****************************************************************98 PP
+
+>> sp|Q92826|HXB13_HUMAN  Homeobox protein Hox-B13 OS=Homo sapiens OX=9606 GN=HOXB13 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.2   8.3     0.022        11     100     143 ..      56      95 ..      32     105 .. 0.83
+   2 !  200.8   0.4   2.2e-60   1.1e-57     177     341 ..     114     281 ..     102     283 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.022
+  sp|P35453|HXD13_HUMAN 100 eappakecpaptpaaaaaappsapalgygyhfgngyyscrmshg 143
+                             a p k+c  p p       p ap + ygy fg gyyscr+s++
+  sp|Q92826|HXB13_HUMAN  56 SAEPPKQCH-PCPGVPQGTSP-AP-VPYGY-FGGGYYSCRVSRS 95 
+                            577889995.99998888777.78.58**8.9********9974 PP
+
+  == domain 2  score: 200.8 bits;  conditional E-value: 2.2e-60
+  sp|P35453|HXD13_HUMAN 177 svpanevparakevsfyqgytspyqhvpgyidm..vstfgs.geprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpg 261
+                                 e p+r  e +fy gy   yq + +y+d+  v t+g+ geprh++ + +++yqsw la gwnsq+ c  +q     fwk++f  
+  sp|Q92826|HXB13_HUMAN 114 PTAGEEYPSRPTEFAFYPGYPGTYQPMASYLDVsvVQTLGApGEPRHDSLLPVDSYQSWALAGGWNSQMCCQGEQNPPGPFWKAAFAD 201
+                            4556799***********************9954368**9669*****************************99977778*******9 PP
+
+  sp|P35453|HXD13_HUMAN 262 dvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdt 341
+                                + pd c +rrgrkkr+py+k ql+ele eya nkfi kdkrr+isaat+lserq+tiwfqnrrvk+kk+++k+k++
+  sp|Q92826|HXB13_HUMAN 202 SSGQHPPDACAFRRGRKKRIPYSKGQLRELEREYAANKFITKDKRRKISAATSLSERQITIWFQNRRVKEKKVLAKVKNS 281
+                            99***************************************************************************986 PP
+
+>> sp|P70321|HXB13_MOUSE  Homeobox protein Hox-B13 OS=Mus musculus OX=10090 GN=Hoxb13 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.0   8.1    0.0065       3.1     100     143 ..      57      96 ..      46     112 .. 0.85
+   2 !  199.8   0.6   4.4e-60   2.1e-57     176     341 ..     114     283 ..     100     285 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.0065
+  sp|P35453|HXD13_HUMAN 100 eappakecpaptpaaaaaappsapalgygyhfgngyyscrmshg 143
+                             a p k+c  p p     a p ap   ygy fg gyyscr+s++
+  sp|P70321|HXB13_MOUSE  57 SAEPPKQCH-PCPGVPQGASP-APV-PYGY-FGGGYYSCRVSRS 96 
+                            57899***5.99*99999998.795.8**8.9*********975 PP
+
+  == domain 2  score: 199.8 bits;  conditional E-value: 4.4e-60
+  sp|P35453|HXD13_HUMAN 176 ssvpanevparakevsfyqgytspyqhvpgyidm..vstfgs.geprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfp 260
+                            +  p  e p+r  e +fy gy  pyq + +y+d+  v t+g+ geprh++ + +++yq w la gwnsq+ c  +q     fwk++f 
+  sp|P70321|HXB13_MOUSE 114 TPAPGEEYPSRPTEFAFYPGYPGPYQPMASYLDVsvVQTLGApGEPRHDSLLPVDSYQPWALAGGWNSQMCCQGEQNPPGPFWKAAFA 201
+                            56899**************************9954368**9669*****************************99977778******8 PP
+
+  sp|P35453|HXD13_HUMAN 261 g.dvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkdt 341
+                               v    pd c +rrgrkkr+py+k ql+ele eya nkfi kdkrr+isaat+lserq+tiwfqnrrvk+kk+++k+k +
+  sp|P70321|HXB13_MOUSE 202 EpSVQHPPPDGCAFRRGRKKRIPYSKGQLRELEREYAANKFITKDKRRKISAATSLSERQITIWFQNRRVKEKKVLAKVKTS 283
+                            625667789*********************************************************************9965 PP
+
+>> sp|Q1KKZ6|HXADB_TAKRU  Homeobox protein Hox-A13b OS=Takifugu rubripes OX=31033 GN=hoxa13b PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   3.9   0.00034      0.17     101     143 ..      70     107 ..      47     117 .. 0.79
+   2 !   77.1   3.1   9.7e-23   4.6e-20     176     263 ..     125     214 ..     119     217 .. 0.86
+   3 !  103.6   6.0   8.9e-31   4.2e-28     273     340 ..     216     283 ..     211     285 .] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 0.00034
+  sp|P35453|HXD13_HUMAN 101 appakecpaptpaaaaaappsapalgygyhfgngyyscrmshg 143
+                              p k+c +p pa   ++ p+a +l ygy fg++yy cr+shg
+  sp|Q1KKZ6|HXADB_TAKRU  70 GEPGKQC-SPCPATQ-SS-PNA-SLPYGY-FGSSYYPCRVSHG 107
+                            5689999.6999754.44.688.699**8.9***********9 PP
+
+  == domain 2  score: 77.1 bits;  conditional E-value: 9.7e-23
+  sp|P35453|HXD13_HUMAN 176 ssvpanevparakevsfyqgyts.pyqhvpgyidmvstfgs.geprheayismegyqswtlangwnsqvyctkdqpqgshfwkssfpg 261
+                            s v   e  +rake +fyqgy+s pyq     + +v  +++ +e rhe  + me yq wt+ ngw+ qvyctk+qpq++ +wkss+ g
+  sp|Q1KKZ6|HXADB_TAKRU 125 SPVSGEEFSSRAKEYAFYQGYSSaPYQPSYLDVPVVPALSApSETRHEPLLPMEPYQPWTITNGWSGQVYCTKEQPQSNPLWKSSLQG 212
+                            67888999*************86477766556667777764389******************************************99 PP
+
+  sp|P35453|HXD13_HUMAN 262 dv 263
+                            + 
+  sp|Q1KKZ6|HXADB_TAKRU 213 NS 214
+                            75 PP
+
+  == domain 3  score: 103.6 bits;  conditional E-value: 8.9e-31
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsklkd 340
+                             rrgrkkrvpytk+qlkele eya nkfi kdkrrrisa tnl+erqvtiwfqnrrvk+kk+v+k+k 
+  sp|Q1KKZ6|HXADB_TAKRU 216 VRRGRKKRVPYTKVQLKELEREYAANKFITKDKRRRISAQTNLTERQVTIWFQNRRVKEKKVVNKFKS 283
+                            59***************************************************************985 PP
+
+>> sp|P50210|HXA13_AMBME  Homeobox protein Hox-A13 (Fragment) OS=Ambystoma mexicanum OX=8296 GN=HOXA13 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.6   2.7   4.7e-49   2.3e-46     236     341 ..       2     106 ..       1     107 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 163.6 bits;  conditional E-value: 4.7e-49
+  sp|P35453|HXD13_HUMAN 236 ngwnsqvyctkdqpqgshfwkssfpgdvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiw 323
+                            ngwn qvyc+k+q q  h+wkss+p dv  +  d   yrrgrkkrvpytk+qlkele eya nkfi kdkrrrisa tnlserqvtiw
+  sp|P50210|HXA13_AMBME   2 NGWNGQVYCSKEQGQPPHLWKSSLP-DVVWHPSDANSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIW 88 
+                            9***********************9.8999********************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 324 fqnrrvkdkkivsklkdt 341
+                            fqnrrvk+kk+++klk t
+  sp|P50210|HXA13_AMBME  89 FQNRRVKEKKVINKLKTT 106
+                            ***************987 PP
+
+>> sp|Q90472|HXDDA_DANRE  Homeobox protein Hox-D13a OS=Danio rerio OX=7955 GN=hoxd13a PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  155.4   0.3   1.5e-46     7e-44     173     333 ..      90     248 ..      78     252 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 155.4 bits;  conditional E-value: 1.5e-46
+  sp|P35453|HXD13_HUMAN 173 lasssvpanevparakevsfyqgytspyqhvpgyidm.v.stfgsgeprheayismegyqswtlangwnsqvyctkdqpqgshfwkss 258
+                            +a+  v   e  +  ke +fyqg    y ++p++id+ v      g+ rhe  ++meg+q w  +n+ +sq+yc +dq ++ h+wk s
+  sp|Q90472|HXDDA_DANRE  90 FANKPVDHGEASSWLKEFAFYQGCARSYPRIPAFIDLpVvQRAMMGDLRHETCLTMEGHQHWDWSNNCSSQLYCFQDQTRSPHIWKPS 177
+                            566778888999999*********************754145668******************************************* PP
+
+  sp|P35453|HXD13_HUMAN 259 fpgdvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkk 333
+                            +  + a     +c  +rgrkkrvpytk+qlkele ey   kfi k+ rrri+++tnlserqvtiwfqnrrvkdkk
+  sp|Q90472|HXDDA_DANRE 178 LTEEAAA--ASFC--QRGRKKRVPYTKFQLKELEREYNTTKFITKENRRRIASSTNLSERQVTIWFQNRRVKDKK 248
+                            9877653..5789..58*********************************************************9 PP
+
+>> sp|P31263|HXD11_NOTVI  Homeobox protein Hox-D11 OS=Notophthalmus viridescens OX=8316 GN=HOXD11 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.5   1.1   1.3e-21     6e-19     246     334 ..     174     263 ..     167     269 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 73.5 bits;  conditional E-value: 1.3e-21
+  sp|P35453|HXD13_HUMAN 246 kdqpqgshfwkssfpgdvalnqpdm.cvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdk 332
+                             d+  g++    s  g+va ++ +  +  +r+rkkr pytk q++ele e+ +n +ink+kr ++s   nl++rqv iwfqnrr+k+k
+  sp|P31263|HXD11_NOTVI 174 PDKKMGAEGRADSPSGEVAADKSNSsATPQRSRKKRCPYTKYQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEK 261
+                            6777888877778889***99887516789********************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 333 ki 334
+                            k+
+  sp|P31263|HXD11_NOTVI 262 KL 263
+                            97 PP
+
+>> sp|P24342|HXD11_CHICK  Homeobox protein Hox-D11 OS=Gallus gallus OX=9031 GN=HOXD11 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.8   3.0     8e-21   3.8e-18     257     334 ..     188     266 ..     177     272 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 70.8 bits;  conditional E-value: 8e-21
+  sp|P35453|HXD13_HUMAN 257 ssfpgdvaln.qpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            +s pg+         +v +r+rkkr pytk q++ele e+ +n +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|P24342|HXD11_CHICK 188 ASPPGEAVAEkSNSSAVPQRSRKKRCPYTKYQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 266
+                            567898655505567899***********************************************************97 PP
+
+>> sp|P23812|HXD12_MOUSE  Homeobox protein Hox-D12 OS=Mus musculus OX=10090 GN=Hoxd12 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.8      0.93   4.5e+02     159     214 ..      36      90 ..      26     107 .. 0.67
+   2 !   69.6   2.0   1.8e-20   8.8e-18     274     337 ..     198     261 ..     190     265 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.93
+  sp|P35453|HXD13_HUMAN 159 lggfpvekymdvsglasssvpanevparakevsfyqgytspyqhvpgyidmvstfg 214
+                            l+++p   y   s+l  ++ pa+  pa+    s + g++ py    g i + s  +
+  sp|P23812|HXD12_MOUSE  36 LAALPPISYP-RSALPWATTPASCTPAQPATASAFGGFSQPYLTGSGPIGLQSPGA 90 
+                            4445554553.466777777888888887778888888888877777776665544 PP
+
+  == domain 2  score: 69.6 bits;  conditional E-value: 1.8e-20
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsk 337
+                             r+rkkr pytk q+ elene+ +n+fin+ kr+++s   nls++qv iwfqnrr+k k++v +
+  sp|P23812|HXD12_MOUSE 198 GRARKKRKPYTKQQIAELENEFLVNEFINRQKRKELSNRLNLSDQQVKIWFQNRRMKKKRVVQR 261
+                            589*********************************************************9976 PP
+
+>> sp|P24343|HXD12_CHICK  Homeobox protein Hox-D12 OS=Gallus gallus OX=9031 GN=HOXD12 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.2   1.6   1.3e-20   6.2e-18     273     337 ..     195     259 ..     183     263 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 70.2 bits;  conditional E-value: 1.3e-20
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsk 337
+                              r+rkkr pytk q+ elene+ +n+fin+ kr+++s   nls++qv iwfqnrr+k k++v +
+  sp|P24343|HXD12_CHICK 195 QGRSRKKRKPYTKQQIAELENEFLLNEFINRQKRKELSNRLNLSDQQVKIWFQNRRMKKKRVVMR 259
+                            5699*********************************************************9975 PP
+
+>> sp|P35452|HXD12_HUMAN  Homeobox protein Hox-D12 OS=Homo sapiens OX=9606 GN=HOXD12 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.2   1.8   2.4e-20   1.2e-17     274     336 ..     200     262 ..     192     267 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 69.2 bits;  conditional E-value: 2.4e-20
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivs 336
+                             r+rkkr pytk q+ elene+ +n+fin+ kr+++s   nls++qv iwfqnrr+k k++v 
+  sp|P35452|HXD12_HUMAN 200 GRARKKRKPYTKQQIAELENEFLVNEFINRQKRKELSNRLNLSDQQVKIWFQNRRMKKKRVVL 262
+                            589********************************************************9986 PP
+
+>> sp|Q8K5B8|HXC12_MOUSE  Homeobox protein Hox-C12 OS=Mus musculus OX=10090 GN=Hoxc12 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.2   0.9   2.6e-20   1.2e-17     264     335 ..     200     271 ..     147     277 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 69.2 bits;  conditional E-value: 2.6e-20
+  sp|P35453|HXD13_HUMAN 264 alnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                            a   p   ++ r+rkkr py+klql ele e+ +n+fi + +rr++s   nls++qv iwfqnrr+k k+++
+  sp|Q8K5B8|HXC12_MOUSE 200 ASGAPWYPIHSRSRKKRKPYSKLQLAELEGEFLVNEFITRQRRRELSDRLNLSDQQVKIWFQNRRMKKKRLL 271
+                            456788889**********************************************************99987 PP
+
+>> sp|Q9IA15|HXD11_HETFR  Homeobox protein Hox-D11 OS=Heterodontus francisci OX=7792 GN=HOXD11 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.9   1.3   6.3e-20     3e-17     261     334 ..     178     251 ..     154     256 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 67.9 bits;  conditional E-value: 6.3e-20
+  sp|P35453|HXD13_HUMAN 261 gdvalnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            g  a  +  +    r rkkr pytk q++ele e+ +n +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|Q9IA15|HXD11_HETFR 178 GTSATEKNSLSTALRCRKKRCPYTKYQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 251
+                            5556666677888899********************************************************97 PP
+
+>> sp|Q9IA16|HXD12_HETFR  Homeobox protein Hox-D12 OS=Heterodontus francisci OX=7792 GN=HOXD12 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.7   1.9   1.4e-19   6.9e-17     274     337 ..     202     265 ..     193     270 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 66.7 bits;  conditional E-value: 1.4e-19
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsk 337
+                             r+r+kr pytk q+ elene+  n+fin+ kr+++s   nls++qv iwfqnrr+k k++v +
+  sp|Q9IA16|HXD12_HETFR 202 VRSRRKRKPYTKQQIAELENEFLANEFINRQKRKELSDRLNLSDQQVKIWFQNRRMKKKRLVMR 265
+                            589*********************************************************9976 PP
+
+>> sp|P31275|HXC12_HUMAN  Homeobox protein Hox-C12 OS=Homo sapiens OX=9606 GN=HOXC12 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.0   1.6   2.3e-19   1.1e-16     267     335 ..     205     273 ..     195     279 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 66.0 bits;  conditional E-value: 2.3e-19
+  sp|P35453|HXD13_HUMAN 267 qpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                             p   +  r+rkkr py+klql ele e+ +n+fi + +rr++s   nls++qv iwfqnrr+k k+++
+  sp|P31275|HXC12_HUMAN 205 APWYPINSRSRKKRKPYSKLQLAELEGEFLVNEFITRQRRRELSDRLNLSDQQVKIWFQNRRMKKKRLL 273
+                            566678899*******************************************************99987 PP
+
+>> sp|Q5EU40|HXD12_CARPS  Homeobox protein Hox-D12 OS=Carollia perspicillata OX=40233 GN=HOXD12 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.9   4.6   2.5e-19   1.2e-16     274     336 ..     200     262 ..     192     267 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 65.9 bits;  conditional E-value: 2.5e-19
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivs 336
+                             r+rkkr pytk q+ elene+ +n+fin+ kr+++s   nls++qv iwfqnrr+k k++v 
+  sp|Q5EU40|HXD12_CARPS 200 GRARKKRKPYTKQQIAELENEFLLNEFINRQKRKELSNRLNLSDQQVKIWFQNRRMKKKRVVL 262
+                            589********************************************************9986 PP
+
+>> sp|Q1KKT1|HXDBA_TAKRU  Homeobox protein Hox-D11a OS=Takifugu rubripes OX=31033 GN=hoxd11a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.3   2.5   3.9e-19   1.9e-16     274     334 ..     191     251 ..     174     257 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 65.3 bits;  conditional E-value: 3.9e-19
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             r+rkkr py+k q++ele e+ +n +ink+kr ++s   nls+rqv iwfqnrr+k+kk+
+  sp|Q1KKT1|HXDBA_TAKRU 191 SRSRKKRCPYSKYQIRELEREFFFNVYINKEKRLQLSRMLNLSDRQVKIWFQNRRMKEKKL 251
+                            689********************************************************97 PP
+
+>> sp|Q90471|HXDCA_DANRE  Homeobox protein Hox-D12a OS=Danio rerio OX=7955 GN=hoxd12a PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.8   1.2   2.8e-19   1.3e-16     274     336 ..     192     254 ..     183     260 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 65.8 bits;  conditional E-value: 2.8e-19
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivs 336
+                             r+rkkr pytk ql elene+ +n+fin+ kr+++s    ls++qv iwfqnrr+k k+++ 
+  sp|Q90471|HXDCA_DANRE 192 VRSRKKRKPYTKPQLTELENEFMMNEFINRQKRKELSDRLELSDQQVKIWFQNRRMKKKRLMM 254
+                            489******************************************************999875 PP
+
+>> sp|P23813|HXD11_MOUSE  Homeobox protein Hox-D11 OS=Mus musculus OX=10090 GN=Hoxd11 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.5   4.5   3.5e-19   1.7e-16     260     334 ..     234     309 ..     219     315 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 65.5 bits;  conditional E-value: 3.5e-19
+  sp|P35453|HXD13_HUMAN 260 pgdvalnqpd.mcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            pg+    +       +r+rkkr pytk q++ele e+ +n +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|P23813|HXD11_MOUSE 234 PGEAGAEKSGgTVAPQRSRKKRCPYTKYQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 309
+                            66666555541345689*********************************************************97 PP
+
+>> sp|Q1KKT2|HXDCA_TAKRU  Homeobox protein Hox-D12a OS=Takifugu rubripes OX=31033 GN=hoxd12a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.2   1.9   4.1e-19     2e-16     264     336 ..     181     253 ..     168     258 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 65.2 bits;  conditional E-value: 4.1e-19
+  sp|P35453|HXD13_HUMAN 264 alnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivs 336
+                            a   p  c   + rkkr py+k ql elene+ +n+fin+ kr+++s   +ls++qv iwfqnrr+k k+++ 
+  sp|Q1KKT2|HXDCA_TAKRU 181 AEGAPWCCSQVKTRKKRKPYSKPQLAELENEFLMNEFINRQKRKELSDRLDLSDQQVKIWFQNRRMKKKRLMM 253
+                            556788899999********************************************************99875 PP
+
+>> sp|Q9YGT0|HXCCB_DANRE  Homeobox protein Hox-C12b OS=Danio rerio OX=7955 GN=hoxc12b PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.3   1.3   7.9e-19   3.8e-16     272     336 ..     211     275 ..     202     280 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 64.3 bits;  conditional E-value: 7.9e-19
+  sp|P35453|HXD13_HUMAN 272 vyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivs 336
+                            ++r+ rkkr py+klql ele e+ +n+fi + +rr++s   nl+++qv iwfqnrr+k k+++ 
+  sp|Q9YGT0|HXCCB_DANRE 211 MHRQTRKKRKPYSKLQLNELEGEFILNEFITRQRRRELSDRLNLTDQQVKIWFQNRRMKKKRLLM 275
+                            68999*******************************************************99875 PP
+
+>> sp|P31277|HXD11_HUMAN  Homeobox protein Hox-D11 OS=Homo sapiens OX=9606 GN=HOXD11 PE=3 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.2   7.2   8.6e-19   4.1e-16     258     334 ..     247     324 ..     234     330 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 64.2 bits;  conditional E-value: 8.6e-19
+  sp|P35453|HXD13_HUMAN 258 sfpgdvalnqpdmcv.yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                              pg+    +   +v  +r+rkkr pytk q++ele e+ +n +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|P31277|HXD11_HUMAN 247 GPPGEAGAEKSSSAVaPQRSRKKRCPYTKYQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 324
+                            5688888877766652689*********************************************************97 PP
+
+>> sp|Q90470|HXDBA_DANRE  Homeobox protein Hox-D11a OS=Danio rerio OX=7955 GN=hoxd11a PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.6   0.7   2.6e-18   1.2e-15     274     334 ..     202     262 ..     144     268 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 62.6 bits;  conditional E-value: 2.6e-18
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             ++rkkr py+k q++ele e+ +n +ink+kr ++s   +l++rqv iwfqnrr+k+kk+
+  sp|Q90470|HXDBA_DANRE 202 TKSRKKRCPYSKYQIRELEREFFFNVYINKEKRLQLSRMLSLTDRQVKIWFQNRRMKEKKL 262
+                            578********************************************************97 PP
+
+>> sp|Q1KKZ5|HXABB_TAKRU  Homeobox protein Hox-A11b OS=Takifugu rubripes OX=31033 GN=hoxa11b PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.7   3.1   2.4e-18   1.1e-15     274     334 ..     210     270 ..     202     276 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 62.7 bits;  conditional E-value: 2.4e-18
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            +r+rkkr pytk q++ele e+ ++ +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|Q1KKZ5|HXABB_TAKRU 210 QRARKKRCPYTKYQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 270
+                            699********************************************************97 PP
+
+>> sp|Q1KKV3|HXCCA_TAKRU  Homeobox protein Hox-C12a OS=Takifugu rubripes OX=31033 GN=hoxc12a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.7   3.1   2.4e-18   1.2e-15     272     335 ..     203     266 ..     196     272 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 62.7 bits;  conditional E-value: 2.4e-18
+  sp|P35453|HXD13_HUMAN 272 vyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                            ++ r rkkr py+klql ele e+ +n+fi + +rr++s   nls++qv iwfqnrr+k k+++
+  sp|Q1KKV3|HXCCA_TAKRU 203 MHTRTRKKRKPYSKLQLAELEGEFMMNEFITRQRRRELSDRLNLSDQQVKIWFQNRRMKKKRLM 266
+                            68899******************************************************99986 PP
+
+>> sp|P31270|HXA11_HUMAN  Homeobox protein Hox-A11 OS=Homo sapiens OX=9606 GN=HOXA11 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.3   3.3   3.3e-18   1.6e-15     274     334 ..     239     299 ..     231     305 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 62.3 bits;  conditional E-value: 3.3e-18
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            +r rkkr pytk q++ele e+ ++ +ink+kr ++s   nl++rqv iwfqnrr+k+kki
+  sp|P31270|HXA11_HUMAN 239 QRTRKKRCPYTKYQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKI 299
+                            689*********************************************************8 PP
+
+>> sp|Q58EL0|HXCBA_DANRE  Homeobox protein Hox-C11a OS=Danio rerio OX=7955 GN=hoxc11a PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.2   3.7   3.3e-18   1.6e-15     274     334 ..     232     292 ..     211     298 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 62.2 bits;  conditional E-value: 3.3e-18
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             r rkkr py+k+q++ele e+ +n +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|Q58EL0|HXCBA_DANRE 232 PRTRKKRCPYSKFQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 292
+                            588********************************************************97 PP
+
+>> sp|P31258|HXA11_CHICK  Homeobox protein Hox-A11 OS=Gallus gallus OX=9031 GN=HOXA11 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.1   3.6   3.7e-18   1.8e-15     274     334 ..     223     283 ..     218     289 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 62.1 bits;  conditional E-value: 3.7e-18
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            +r rkkr pytk q++ele e+ ++ +ink+kr ++s   nl++rqv iwfqnrr+k+kki
+  sp|P31258|HXA11_CHICK 223 QRTRKKRCPYTKYQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKI 283
+                            689*********************************************************8 PP
+
+>> sp|P31311|HXA11_MOUSE  Homeobox protein Hox-A11 OS=Mus musculus OX=10090 GN=Hoxa11 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.0   3.4     4e-18   1.9e-15     274     334 ..     239     299 ..     234     305 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 62.0 bits;  conditional E-value: 4e-18
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            +r rkkr pytk q++ele e+ ++ +ink+kr ++s   nl++rqv iwfqnrr+k+kki
+  sp|P31311|HXA11_MOUSE 239 QRTRKKRCPYTKYQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKI 299
+                            689*********************************************************8 PP
+
+>> sp|P31313|HXC11_MOUSE  Homeobox protein Hox-C11 OS=Mus musculus OX=10090 GN=Hoxc11 PE=2 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.9   3.4   4.3e-18     2e-15     275     334 ..     231     290 ..     228     296 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 61.9 bits;  conditional E-value: 4.3e-18
+  sp|P35453|HXD13_HUMAN 275 rgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            r rkkr py+k+q++ele e+ +n +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|P31313|HXC11_MOUSE 231 RTRKKRCPYSKFQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 290
+                            78********************************************************97 PP
+
+>> sp|O43248|HXC11_HUMAN  Homeobox protein Hox-C11 OS=Homo sapiens OX=9606 GN=HOXC11 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.9   3.4   4.3e-18   2.1e-15     275     334 ..     231     290 ..     228     296 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 61.9 bits;  conditional E-value: 4.3e-18
+  sp|P35453|HXD13_HUMAN 275 rgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            r rkkr py+k+q++ele e+ +n +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|O43248|HXC11_HUMAN 231 RTRKKRCPYSKFQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 290
+                            78********************************************************97 PP
+
+>> sp|Q28601|HXC9_SHEEP  Homeobox protein Hox-C9 (Fragment) OS=Ovis aries OX=9940 GN=HOXC9 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   2.1   6.3e-18     3e-15     274     337 ..      26      89 ..       8      94 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 6.3e-18
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsk 337
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+  +
+   sp|Q28601|HXC9_SHEEP  26 RSTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARVLNLTERQVKIWFQNRRMKMKKMNKE 89 
+                            5679******************************************************997544 PP
+
+>> sp|Q9IA14|HXD10_HETFR  Homeobox protein Hox-D10 OS=Heterodontus francisci OX=7792 GN=HOXD10 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.3   2.1     1e-16   4.9e-14     273     334 ..     259     320 ..     247     326 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.3 bits;  conditional E-value: 1e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is + nl++rqv iwfqnrr+k kk+
+  sp|Q9IA14|HXD10_HETFR 259 AKSGRKKRCPYTKYQTLELEKEFLFNMYLTRERRLEISKSVNLTDRQVKIWFQNRRMKLKKM 320
+                            578*******************************************************9997 PP
+
+>> sp|P24341|HXD10_CHICK  Homeobox protein Hox-D10 (Fragment) OS=Gallus gallus OX=9031 GN=HOXD10 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.1   1.6   7.4e-18   3.5e-15     273     334 ..      18      79 ..      10      85 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 61.1 bits;  conditional E-value: 7.4e-18
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is + nl++rqv iwfqnrr+k kk+
+  sp|P24341|HXD10_CHICK  18 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVNLTDRQVKIWFQNRRMKLKKM 79 
+                            578*******************************************************9997 PP
+
+>> sp|Q9DDU1|HXABB_DANRE  Homeobox protein Hox-A11b OS=Danio rerio OX=7955 GN=hoxa11b PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.5   3.4   1.1e-17   5.3e-15     275     334 ..     210     269 ..     205     275 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 60.5 bits;  conditional E-value: 1.1e-17
+  sp|P35453|HXD13_HUMAN 275 rgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            + rkkr pytk q++ele e+ ++ +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|Q9DDU1|HXABB_DANRE 210 KTRKKRCPYTKYQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 269
+                            679*******************************************************97 PP
+
+>> sp|Q9DDU2|HXABB_DEVAE  Homeobox protein Hox-A11b OS=Devario aequipinnatus OX=46778 GN=hoxa11b PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.5   3.4   1.1e-17   5.3e-15     275     334 ..     210     269 ..     205     275 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 60.5 bits;  conditional E-value: 1.1e-17
+  sp|P35453|HXD13_HUMAN 275 rgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            + rkkr pytk q++ele e+ ++ +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|Q9DDU2|HXABB_DEVAE 210 KTRKKRCPYTKYQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 269
+                            679*******************************************************97 PP
+
+>> sp|Q1KKV2|HXCBA_TAKRU  Homeobox protein Hox-C11a OS=Takifugu rubripes OX=31033 GN=hoxc11a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.1   4.5   7.5e-18   3.6e-15     275     334 ..     249     308 ..     238     314 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 61.1 bits;  conditional E-value: 7.5e-18
+  sp|P35453|HXD13_HUMAN 275 rgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            r rkkr py+k+q++ele e+ +n +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|Q1KKV2|HXCBA_TAKRU 249 RTRKKRCPYSKFQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL 308
+                            78********************************************************97 PP
+
+>> sp|Q1KL17|HXABA_TAKRU  Homeobox protein Hox-A11a OS=Takifugu rubripes OX=31033 GN=hoxa11a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.9   4.0   8.5e-18   4.1e-15     273     334 ..     208     269 ..     181     275 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 60.9 bits;  conditional E-value: 8.5e-18
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             +r rkkr py+k q++ele e+ ++ +ink+kr ++s   nl++rqv iwfqnrr+k+kk+
+  sp|Q1KL17|HXABA_TAKRU 208 GQRTRKKRCPYSKYQIRELEREFFFSVYINKEKRMQLSRMLNLTDRQVKIWFQNRRMKEKKL 269
+                            5799********************************************************97 PP
+
+>> sp|Q9DDU0|HXABA_DANRE  Homeobox protein Hox-A11a OS=Danio rerio OX=7955 GN=hoxa11a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.6   2.3     1e-17   4.9e-15     275     334 ..     211     270 ..     205     276 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 60.6 bits;  conditional E-value: 1e-17
+  sp|P35453|HXD13_HUMAN 275 rgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            r rkkr pytk+q++ele e+ ++ +ink+kr ++s   nl++rqv +wfqnrr+k+kk+
+  sp|Q9DDU0|HXABA_DANRE 211 RFRKKRCPYTKFQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKMWFQNRRMKEKKL 270
+                            779*******************************************************97 PP
+
+>> sp|Q1KKY2|HXB9A_TAKRU  Homeobox protein Hox-B9a OS=Takifugu rubripes OX=31033 GN=hoxb9a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.2   1.2   1.4e-17   6.7e-15     274     334 ..     188     248 ..     178     255 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 60.2 bits;  conditional E-value: 1.4e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            r +rkkr pytk q  ele e+ +n ++ +d+r++++ a nl+erqv iwfqnrr+k kk 
+  sp|Q1KKY2|HXB9A_TAKRU 188 RSSRKKRCPYTKYQTLELEKEFLFNMYLTRDRRHEVARALNLTERQVKIWFQNRRMKMKKQ 248
+                            778******************************************************9984 PP
+
+>> sp|A2T7D1|HXD10_PANTR  Homeobox protein Hox-D10 OS=Pan troglodytes OX=9598 GN=HOXD10 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.5   1.3   9.4e-17   4.5e-14     273     334 ..     263     324 ..     251     330 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.5 bits;  conditional E-value: 9.4e-17
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is + nl++rqv iwfqnrr+k kk+
+  sp|A2T7D1|HXD10_PANTR 263 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVNLTDRQVKIWFQNRRMKLKKM 324
+                            578*******************************************************9997 PP
+
+>> sp|Q9PWM2|HXB9A_DANRE  Homeobox protein Hox-B9a OS=Danio rerio OX=7955 GN=hoxb9a PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.4   0.6   2.4e-17   1.2e-14     273     334 ..     181     242 ..     157     247 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 59.4 bits;  conditional E-value: 2.4e-17
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             r +rkkr pytk q  ele e+ +n ++ +d+r++++   nl+erqv iwfqnrr+k kk+
+  sp|Q9PWM2|HXB9A_DANRE 181 ARSSRKKRCPYTKYQTLELEKEFLFNMYLTRDRRHEVARLLNLTERQVKIWFQNRRMKMKKM 242
+                            4678******************************************************9996 PP
+
+>> sp|P17482|HXB9_HUMAN  Homeobox protein Hox-B9 OS=Homo sapiens OX=9606 GN=HOXB9 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.1   1.3   1.5e-17     7e-15     273     334 ..     182     243 ..     170     249 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 60.1 bits;  conditional E-value: 1.5e-17
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             r +rkkr pytk q  ele e+ +n ++ +d+r++++   nlserqv iwfqnrr+k kk+
+   sp|P17482|HXB9_HUMAN 182 ARSSRKKRCPYTKYQTLELEKEFLFNMYLTRDRRHEVARLLNLSERQVKIWFQNRRMKMKKM 243
+                            4778******************************************************9997 PP
+
+>> sp|P28359|HXD10_MOUSE  Homeobox protein Hox-D10 OS=Mus musculus OX=10090 GN=Hoxd10 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.1   1.6   1.2e-16   5.6e-14     273     334 ..     263     324 ..     251     330 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.1 bits;  conditional E-value: 1.2e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is + nl++rqv iwfqnrr+k kk+
+  sp|P28359|HXD10_MOUSE 263 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVNLTDRQVKIWFQNRRMKLKKM 324
+                            578*******************************************************9997 PP
+
+>> sp|P20615|HXB9_MOUSE  Homeobox protein Hox-B9 OS=Mus musculus OX=10090 GN=Hoxb9 PE=2 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.8   1.6   1.8e-17   8.8e-15     274     334 ..     183     243 ..     171     249 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 59.8 bits;  conditional E-value: 1.8e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            r +rkkr pytk q  ele e+ +n ++ +d+r++++   nlserqv iwfqnrr+k kk+
+   sp|P20615|HXB9_MOUSE 183 RSSRKKRCPYTKYQTLELEKEFLFNMYLTRDRRHEVARLLNLSERQVKIWFQNRRMKMKKM 243
+                            778******************************************************9997 PP
+
+>> sp|Q9IA13|HXD9_HETFR  Homeobox protein Hox-D9 OS=Heterodontus francisci OX=7792 GN=HOXD9 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.8   1.5   1.9e-17   8.9e-15     244     340 ..     164     261 ..     158     263 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 59.8 bits;  conditional E-value: 1.9e-17
+  sp|P35453|HXD13_HUMAN 244 ctkdqpqgshfwkssfpgdvalnqpdm.cvyrr.grkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrv 329
+                            ct  +  ++   k      +  n p +  ++ r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+
+   sp|Q9IA13|HXD9_HETFR 164 CTSSETTSNSEHKEEKQQQLDPNHPAInWIHARsTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARILNLTERQVKIWFQNRRM 251
+                            555555554455555555666666665257755269**************************************************** PP
+
+  sp|P35453|HXD13_HUMAN 330 kdkkivsklkd 340
+                            k kk+ +k+k+
+   sp|Q9IA13|HXD9_HETFR 252 KMKKM-NKVKN 261
+                            *9996.67765 PP
+
+>> sp|P31274|HXC9_HUMAN  Homeobox protein Hox-C9 OS=Homo sapiens OX=9606 GN=HOXC9 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.6   1.5   4.3e-17   2.1e-14     274     336 ..     190     252 ..     163     258 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 58.6 bits;  conditional E-value: 4.3e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivs 336
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+  
+   sp|P31274|HXC9_HUMAN 190 RSTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARVLNLTERQVKIWFQNRRMKMKKMNK 252
+                            5679******************************************************99754 PP
+
+>> sp|P09633|HXC9_MOUSE  Homeobox protein Hox-C9 OS=Mus musculus OX=10090 GN=Hoxc9 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.6   1.5   4.3e-17   2.1e-14     274     336 ..     190     252 ..     163     258 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 58.6 bits;  conditional E-value: 4.3e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivs 336
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+  
+   sp|P09633|HXC9_MOUSE 190 RSTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARVLNLTERQVKIWFQNRRMKMKKMNK 252
+                            5679******************************************************99754 PP
+
+>> sp|P28358|HXD10_HUMAN  Homeobox protein Hox-D10 OS=Homo sapiens OX=9606 GN=HOXD10 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.1   1.6   1.2e-16   5.7e-14     273     334 ..     263     324 ..     250     330 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.1 bits;  conditional E-value: 1.2e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is + nl++rqv iwfqnrr+k kk+
+  sp|P28358|HXD10_HUMAN 263 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVNLTDRQVKIWFQNRRMKLKKM 324
+                            578*******************************************************9997 PP
+
+>> sp|A2D5V0|HXD10_LAGLA  Homeobox protein Hox-D10 OS=Lagothrix lagotricha OX=9519 GN=HOXD10 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.1   1.6   1.2e-16   5.7e-14     273     334 ..     263     324 ..     250     330 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.1 bits;  conditional E-value: 1.2e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is + nl++rqv iwfqnrr+k kk+
+  sp|A2D5V0|HXD10_LAGLA 263 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVNLTDRQVKIWFQNRRMKLKKM 324
+                            578*******************************************************9997 PP
+
+>> sp|P51783|HXA9_CAVPO  Homeobox protein Hox-A9 (Fragment) OS=Cavia porcellus OX=10141 GN=HOXA9 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.3   1.3   2.6e-17   1.2e-14     274     335 ..      94     155 ..      77     162 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 59.3 bits;  conditional E-value: 2.6e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kki 
+   sp|P51783|HXA9_CAVPO  94 RSTRKKRCPYTKHQTLELEKEFLFNMYLTRDRRYEVARLLNLTERQVKIWFQNRRMKMKKIN 155
+                            5679********************************************************85 PP
+
+>> sp|Q98924|HXA9_CHICK  Homeobox protein Hox-A9 (Fragment) OS=Gallus gallus OX=9031 GN=HOXA9 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   1.1   2.7e-17   1.3e-14     274     335 ..     101     162 ..      86     169 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 2.7e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kki 
+   sp|Q98924|HXA9_CHICK 101 RSTRKKRCPYTKHQTLELEKEFLFNMYLTRDRRYEVARLLNLTERQVKIWFQNRRMKMKKIN 162
+                            5679********************************************************85 PP
+
+>> sp|A1YFT7|HXD10_SAGLB  Homeobox protein Hox-D10 OS=Saguinus labiatus OX=78454 GN=HOXD10 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.1   1.6   1.2e-16   5.7e-14     273     334 ..     263     324 ..     250     330 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.1 bits;  conditional E-value: 1.2e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is + nl++rqv iwfqnrr+k kk+
+  sp|A1YFT7|HXD10_SAGLB 263 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVNLTDRQVKIWFQNRRMKLKKM 324
+                            578*******************************************************9997 PP
+
+>> sp|P10179|HMB4_TRIGR  Homeobox protein HB4 (Fragment) OS=Tripneustes gratilla OX=7673 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.5   0.9   4.4e-17   2.1e-14     275     333 ..      41      99 ..      33     104 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 58.5 bits;  conditional E-value: 4.4e-17
+  sp|P35453|HXD13_HUMAN 275 rgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkk 333
+                             grkkr pytk+q  ele e+ +n ++ +d+r +i+   +l+erqv iwfqnrr+k kk
+   sp|P10179|HMB4_TRIGR  41 SGRKKRCPYTKFQTLELEKEFLFNMYLTRDRRLEIARLLSLTERQVKIWFQNRRMKMKK 99 
+                            79******************************************************998 PP
+
+>> sp|Q9IA26|HXA9_HETFR  Homeobox protein Hox-A9 OS=Heterodontus francisci OX=7792 GN=HOXA9 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.9   1.7   7.1e-17   3.4e-14     274     336 ..     191     253 ..     179     259 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 57.9 bits;  conditional E-value: 7.1e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivs 336
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kki  
+   sp|Q9IA26|HXA9_HETFR 191 RSTRKKRCPYTKHQTLELEKEFLFNMYLTRDRRYEVARVLNLTERQVKIWFQNRRMKMKKINK 253
+                            5679********************************************************854 PP
+
+>> sp|Q9PWD6|HXA10_MORSA  Homeobox protein Hox-A10 OS=Morone saxatilis OX=34816 GN=hoxa10 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.7   0.9   3.9e-17   1.9e-14     259     335 ..     197     274 ..     183     279 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 58.7 bits;  conditional E-value: 3.9e-17
+  sp|P35453|HXD13_HUMAN 259 fpgdv.alnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                              gd  + n  +    + grkkr pytk q  ele e+ +n ++ +++r +is + +l++rqv iwfqnrr+k kk+ 
+  sp|Q9PWD6|HXA10_MORSA 197 TKGDTkSENTANWLTAKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVHLTDRQVKIWFQNRRMKLKKMT 274
+                            45665245778888999*********************************************************9986 PP
+
+>> sp|P24340|HXD9_CHICK  Homeobox protein Hox-D9 (Fragment) OS=Gallus gallus OX=9031 GN=HOXD9 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.5   1.6   4.5e-17   2.2e-14     277     334 ..       2      59 ..       1      60 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 58.5 bits;  conditional E-value: 4.5e-17
+  sp|P35453|HXD13_HUMAN 277 rkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+
+   sp|P24340|HXD9_CHICK   2 RKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARILNLTERQVKIWFQNRRMKMKKM 59 
+                            8*****************************************************9996 PP
+
+>> sp|Q9PWL7|HXBAA_DANRE  Homeobox protein Hox-B10a OS=Danio rerio OX=7955 GN=hoxb10a PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.5   1.0   9.2e-17   4.4e-14     274     335 ..     204     265 ..     188     271 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 57.5 bits;  conditional E-value: 9.2e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                            + grkkr py+k q+ ele e+ +n ++ +++r +is + nl++rqv iwfqnrr+k kk+ 
+  sp|Q9PWL7|HXBAA_DANRE 204 KAGRKKRCPYSKHQILELEKEFLFNMYLTRERRLEISRSINLTDRQVKIWFQNRRMKLKKMT 265
+                            78*********************************************************986 PP
+
+>> sp|P31272|HXB9_XENLA  Homeobox protein Hox-B9 OS=Xenopus laevis OX=8355 GN=hoxb9 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2   2.1   5.7e-17   2.7e-14     274     335 ..     165     226 ..     152     232 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 5.7e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                            r +rkkr py+k q  ele e+ +n ++ +d+r++++   nlserqv iwfqnrr+k kk+ 
+   sp|P31272|HXB9_XENLA 165 RSSRKKRCPYSKYQTLELEKEFKFNMYLTRDRRHEVARLLNLSERQVKIWFQNRRMKMKKLN 226
+                            678*******************************************************9974 PP
+
+>> sp|Q9YGS6|HXC9A_DANRE  Homeobox protein Hox-C9a OS=Danio rerio OX=7955 GN=hoxc9a PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.0   2.4   6.6e-17   3.1e-14     274     338 ..     190     254 ..     173     258 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 58.0 bits;  conditional E-value: 6.6e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivskl 338
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+  + 
+  sp|Q9YGS6|HXC9A_DANRE 190 RSTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARVLNLTERQVKIWFQNRRMKMKKMNKEK 254
+                            5579*******************************************************986544 PP
+
+>> sp|P09631|HXA9_MOUSE  Homeobox protein Hox-A9 OS=Mus musculus OX=10090 GN=Hoxa9 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.9   1.1   6.8e-17   3.3e-14     274     335 ..     203     264 ..     188     271 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 57.9 bits;  conditional E-value: 6.8e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kki 
+   sp|P09631|HXA9_MOUSE 203 RSTRKKRCPYTKHQTLELEKEFLFNMYLTRDRRYEVARLLNLTERQVKIWFQNRRMKMKKIN 264
+                            5679********************************************************85 PP
+
+>> sp|P31269|HXA9_HUMAN  Homeobox protein Hox-A9 OS=Homo sapiens OX=9606 GN=HOXA9 PE=1 SV=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.9   1.1   6.9e-17   3.3e-14     274     335 ..     204     265 ..     189     272 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 57.9 bits;  conditional E-value: 6.9e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kki 
+   sp|P31269|HXA9_HUMAN 204 RSTRKKRCPYTKHQTLELEKEFLFNMYLTRDRRYEVARLLNLTERQVKIWFQNRRMKMKKIN 265
+                            5679********************************************************85 PP
+
+>> sp|G5EFY5|NOB1_CAEEL  Homeobox protein nob-1 OS=Caenorhabditis elegans OX=6239 GN=nob-1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.9   0.3   7.1e-17   3.4e-14     263     335 ..     150     221 ..     139     226 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 57.9 bits;  conditional E-value: 7.1e-17
+  sp|P35453|HXD13_HUMAN 263 valnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                             a++ p  ++ + g+kkr py k q+  le ey++n+++   +r ++sa   l e+qv +wfqnrr+kdkk+ 
+   sp|G5EFY5|NOB1_CAEEL 150 AAMHLP-WAISHDGKKKRQPYKKDQISRLEYEYSVNQYLTNKRRSELSAQLMLDEKQVKVWFQNRRMKDKKLR 221
+                            566666.567789**************************999999**************************85 PP
+
+>> sp|O42502|HXC9A_TAKRU  Homeobox protein Hox-C9a OS=Takifugu rubripes OX=31033 GN=hoxc9a PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.8   2.2   7.6e-17   3.6e-14     274     338 ..     191     255 ..     171     259 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 57.8 bits;  conditional E-value: 7.6e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivskl 338
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+  + 
+  sp|O42502|HXC9A_TAKRU 191 RSTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRFEVARVLNLTERQVKIWFQNRRMKMKKMNKEK 255
+                            5579*******************************************************986544 PP
+
+>> sp|Q9PVQ9|HXC9_ORYLA  Homeobox protein Hox-C9 OS=Oryzias latipes OX=8090 GN=hoxc9 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.8   2.2   7.7e-17   3.7e-14     274     336 ..     192     254 ..     173     260 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 57.8 bits;  conditional E-value: 7.7e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivs 336
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+  
+   sp|Q9PVQ9|HXC9_ORYLA 192 RSTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARVLNLTERQVKIWFQNRRMKMKKMNK 254
+                            5579******************************************************99754 PP
+
+>> sp|P28356|HXD9_HUMAN  Homeobox protein Hox-D9 OS=Homo sapiens OX=9606 GN=HOXD9 PE=1 SV=5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.6   1.2   8.5e-17   4.1e-14     274     337 ..     283     345 ..     253     349 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 57.6 bits;  conditional E-value: 8.5e-17
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsk 337
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+ sk
+   sp|P28356|HXD9_HUMAN 283 RSTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARILNLTERQVKIWFQNRRMKMKKM-SK 345
+                            5579*****************************************************9996.44 PP
+
+>> sp|Q9PWL6|HXA9A_DANRE  Homeobox protein Hox-A9a OS=Danio rerio OX=7955 GN=hoxa9a PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.7   0.6   1.6e-16   7.5e-14     276     334 ..     184     242 ..     153     249 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 56.7 bits;  conditional E-value: 1.6e-16
+  sp|P35453|HXD13_HUMAN 276 grkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             rkkr pytk q+ ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+
+  sp|Q9PWL6|HXA9A_DANRE 184 TRKKRCPYTKHQILELEKEFLFNTYLTRDRRYEVARLLNLTERQVKIWFQNRRMKMKKF 242
+                            69*****************************************************9996 PP
+
+>> sp|Q1KKT0|HXDAA_TAKRU  Homeobox protein Hox-D10a OS=Takifugu rubripes OX=31033 GN=hoxd10a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.2   1.7   1.1e-16   5.3e-14     273     334 ..     259     320 ..     244     326 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 57.2 bits;  conditional E-value: 1.1e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is + nl++rqv iwfqnrr+k kk+
+  sp|Q1KKT0|HXDAA_TAKRU 259 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISRSVNLTDRQVKIWFQNRRMKLKKM 320
+                            578*******************************************************9997 PP
+
+>> sp|Q9IA27|HXA10_HETFR  Homeobox protein Hox-A10 OS=Heterodontus francisci OX=7792 GN=HOXA10 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.4   0.9     1e-16   4.8e-14     264     334 ..     185     255 ..     173     260 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 57.4 bits;  conditional E-value: 1e-16
+  sp|P35453|HXD13_HUMAN 264 alnqpdmcvyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            a n  +    + grkkr pytk q  ele e+ +n ++ +++r +is + +l++rqv iwfqnrr+k kk+
+  sp|Q9IA27|HXA10_HETFR 185 AENGANWLTAKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISRSVHLTDRQVKIWFQNRRMKLKKM 255
+                            456677788899*******************************************************9996 PP
+
+>> sp|Q1KKR7|HXD9B_TAKRU  Homeobox protein Hox-D9b OS=Takifugu rubripes OX=31033 GN=hoxd9b PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.3   1.0   1.1e-16   5.2e-14     274     338 ..     231     295 ..     217     300 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 57.3 bits;  conditional E-value: 1.1e-16
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivskl 338
+                            +  rkkr pytk q  ele e+  n ++ +d+r +++   nl+erqv iwfqnrr+k kk++ + 
+  sp|Q1KKR7|HXD9B_TAKRU 231 KSTRKKRCPYTKHQTLELEKEFLYNMYLTRDRRLEVAGLLNLTERQVKIWFQNRRMKMKKLMMRD 295
+                            4469********************************************************98765 PP
+
+>> sp|P50209|HXA9_AMBME  Homeobox protein Hox-A9 (Fragment) OS=Ambystoma mexicanum OX=8296 GN=HOXA9 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.0   3.0   1.3e-16   6.1e-14     274     335 ..      76     137 ..      65     142 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 57.0 bits;  conditional E-value: 1.3e-16
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kki 
+   sp|P50209|HXA9_AMBME  76 RSTRKKRCPYTKHQTLELEKEFLFNMYLTRDRRYEVARLLNLTERQVKIWFQNRRMKMKKIN 137
+                            6679*******************************************************984 PP
+
+>> sp|Q9YGT5|HXA9B_DANRE  Homeobox protein Hox-A9b OS=Danio rerio OX=7955 GN=hoxa9b PE=2 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   0.7   2.2e-16     1e-13     274     334 ..     185     245 ..     158     252 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 2.2e-16
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            +  rkkr pytk q  ele e+ +n ++++d+r +++   nl+erqv iwfqnrr+k kk 
+  sp|Q9YGT5|HXA9B_DANRE 185 KSTRKKRCPYTKHQTLELEKEFLFNMYLSRDRRYEVARLLNLTERQVKIWFQNRRMKMKKC 245
+                            4569*****************************************************9996 PP
+
+>> sp|Q90469|HXDAA_DANRE  Homeobox protein Hox-D10a OS=Danio rerio OX=7955 GN=hoxd10a PE=2 SV=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.6   2.2   1.7e-16   8.2e-14     273     334 ..     255     316 ..     241     322 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 56.6 bits;  conditional E-value: 1.7e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is + nl++rqv iwfqnrr+k kk+
+  sp|Q90469|HXDAA_DANRE 255 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVNLTDRQVKIWFQNRRMKLKKM 316
+                            578*******************************************************9997 PP
+
+>> sp|P28357|HXD9_MOUSE  Homeobox protein Hox-D9 OS=Mus musculus OX=10090 GN=Hoxd9 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   2.4   2.1e-16     1e-13     274     337 ..     270     332 ..     256     336 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 2.1e-16
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkivsk 337
+                            r  rkkr pytk q  ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+ sk
+   sp|P28357|HXD9_MOUSE 270 RSTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARILNLTERQVKIWFQNRRMKMKKM-SK 332
+                            5579*****************************************************9996.44 PP
+
+>> sp|Q9PWM6|HXD9A_DANRE  Homeobox protein Hox-D9a OS=Danio rerio OX=7955 GN=hoxd9a PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   1.5   2.2e-16     1e-13     274     334 ..     193     253 ..     180     259 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 2.2e-16
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                            r  rkkr pytk q  ele e+  n ++ +d+r +++   nl+erqv iwfqnrr+k kk+
+  sp|Q9PWM6|HXD9A_DANRE 193 RSTRKKRCPYTKYQTLELEKEFLYNMYLTRDRRYEVARILNLTERQVKIWFQNRRMKMKKM 253
+                            5679*****************************************************9997 PP
+
+>> sp|Q1KL16|HXAAA_TAKRU  Homeobox protein Hox-A10a OS=Takifugu rubripes OX=31033 GN=hoxa10a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.2   1.1   2.3e-16   1.1e-13     272     335 ..     209     272 ..     201     277 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 56.2 bits;  conditional E-value: 2.3e-16
+  sp|P35453|HXD13_HUMAN 272 vyrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                              + grkkr pytk q  ele e+ +n ++ +++r +is + +l++rqv iwfqnrr+k kk+ 
+  sp|Q1KL16|HXAAA_TAKRU 209 TAKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVHLTDRQVKIWFQNRRMKLKKMT 272
+                            5689********************************************************9986 PP
+
+>> sp|Q1KKV1|HXCAA_TAKRU  Homeobox protein Hox-C10a OS=Takifugu rubripes OX=31033 GN=hoxc10a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   2.6   2.7e-16   1.3e-13     274     335 ..     270     331 ..     262     337 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 2.7e-16
+  sp|P35453|HXD13_HUMAN 274 rrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkkiv 335
+                            + grkkr pytk q  ele e+ +n ++++++r +is + nl++rqv iwfqnrr+k kk+ 
+  sp|Q1KKV1|HXCAA_TAKRU 270 KSGRKKRCPYTKHQTLELEKEFLFNMYLSRERRLEISRSINLTDRQVKIWFQNRRMKLKKLN 331
+                            68********************************************************9985 PP
+
+>> sp|O42506|HXA9A_TAKRU  Homeobox protein Hox-A9a OS=Takifugu rubripes OX=31033 GN=hoxa9a PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.8   0.7   2.9e-16   1.4e-13     275     334 ..     215     274 ..     193     277 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 55.8 bits;  conditional E-value: 2.9e-16
+  sp|P35453|HXD13_HUMAN 275 rgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                              rkkr pytk q+ ele e+ +n ++ +d+r +++   nl+erqv iwfqnrr+k kk+
+  sp|O42506|HXA9A_TAKRU 215 ATRKKRCPYTKHQILELEKEFLFNTYLTRDRRYEVARLLNLTERQVKIWFQNRRMKMKKF 274
+                            469*****************************************************9996 PP
+
+>> sp|A2D635|HXC10_MACMU  Homeobox protein Hox-C10 OS=Macaca mulatta OX=9544 GN=HOXC10 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.6   1.8   3.4e-16   1.6e-13     273     334 ..     265     326 ..     255     332 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.6 bits;  conditional E-value: 3.4e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is   nl++rqv iwfqnrr+k kk+
+  sp|A2D635|HXC10_MACMU 265 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKTINLTDRQVKIWFQNRRMKLKKM 326
+                            578*******************************************************9996 PP
+
+>> sp|A2T6F8|HXC10_MACNE  Homeobox protein Hox-C10 OS=Macaca nemestrina OX=9545 GN=HOXC10 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.6   1.8   3.4e-16   1.6e-13     273     334 ..     265     326 ..     255     332 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.6 bits;  conditional E-value: 3.4e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is   nl++rqv iwfqnrr+k kk+
+  sp|A2T6F8|HXC10_MACNE 265 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKTINLTDRQVKIWFQNRRMKLKKM 326
+                            578*******************************************************9996 PP
+
+>> sp|A2T7H7|HXC10_PONPY  Homeobox protein Hox-C10 OS=Pongo pygmaeus OX=9600 GN=HOXC10 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.6   1.8   3.4e-16   1.6e-13     273     334 ..     265     326 ..     255     332 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.6 bits;  conditional E-value: 3.4e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is   nl++rqv iwfqnrr+k kk+
+  sp|A2T7H7|HXC10_PONPY 265 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKTINLTDRQVKIWFQNRRMKLKKM 326
+                            578*******************************************************9996 PP
+
+>> sp|P31257|HXC10_MOUSE  Homeobox protein Hox-C10 OS=Mus musculus OX=10090 GN=Hoxc10 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.6   1.8   3.4e-16   1.6e-13     273     334 ..     265     326 ..     255     332 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.6 bits;  conditional E-value: 3.4e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is   nl++rqv iwfqnrr+k kk+
+  sp|P31257|HXC10_MOUSE 265 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKTINLTDRQVKIWFQNRRMKLKKM 326
+                            578*******************************************************9996 PP
+
+>> sp|Q9NYD6|HXC10_HUMAN  Homeobox protein Hox-C10 OS=Homo sapiens OX=9606 GN=HOXC10 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.6   1.8   3.4e-16   1.6e-13     273     334 ..     265     326 ..     255     332 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.6 bits;  conditional E-value: 3.4e-16
+  sp|P35453|HXD13_HUMAN 273 yrrgrkkrvpytklqlkeleneyainkfinkdkrrrisaatnlserqvtiwfqnrrvkdkki 334
+                             + grkkr pytk q  ele e+ +n ++ +++r +is   nl++rqv iwfqnrr+k kk+
+  sp|Q9NYD6|HXC10_HUMAN 265 AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKTINLTDRQVKIWFQNRRMKLKKM 326
+                            578*******************************************************9996 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (343 nodes)
+Target sequences:                     571609  (206878625 residues searched)
+Passed MSV filter:                     31161  (0.0545145); expected 11432.2 (0.02)
+Passed bias filter:                    31161  (0.0545145); expected 11432.2 (0.02)
+Passed Vit filter:                      7612  (0.0133168); expected 571.6 (0.001)
+Passed Fwd filter:                      4080  (0.00713775); expected 5.7 (1e-05)
+Initial search space (Z):             571609  [actual number of targets]
+Domain search space  (domZ):            1193  [number of targets reported over threshold]
+# CPU time: 29.21u 0.17s 00:00:29.38 Elapsed: 00:00:14.88
+# Mc/sec: 4768.42
+//
+# Alignment of 986 hits satisfying inclusion thresholds saved to: /nfs/public/rw/es/projects/wp-jdispatcher/sources/prod-hl/jobs/hmmer3_phmmer/interactive/20250111/1550/hmmer3_phmmer-I20250111-155037-0551-75430741-p1m.sto
+[ok]
+# Number of hits displayed: 100
