@@ -1,0 +1,187 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=85;
+	taxlabels
+	Aotus_nancymaae[&!color=#009933]
+	Apodemus_speciosus
+	Artibeus_jamaicensis
+	Balaenoptera_acutorostrata
+	Balaenoptera_musculus
+	Bos_mutus
+	Bubalus_bubalis
+	Callithrix_jacchus[&!color=#009933]
+	Callorhinus_ursinus
+	Camelus_ferus
+	Castor_canadensis
+	Cavia_porcellus
+	Cervus_canadensis
+	Cervus_elaphus
+	Chlorocebus_sabaeus[&!color=#009933]
+	Dama_dama
+	Daubentonia_madagascariensis
+	Desmodus_rotundus
+	Dipodomys_spectabilis
+	Eptesicus_fuscus
+	Equus_przewalskii
+	Eschrichtius_robustus
+	Eubalaena_glacialis
+	Eumetopias_jubatus
+	Felis_catus
+	Globicephala_melas
+	Halichoerus_grypus
+	Hipposideros_armiger
+	Homo_sapiens[&!color=#009933]
+	Homo_sapiens_dupelabel1[&!color=#009933]
+	Hyaena_hyaena
+	Kogia_breviceps
+	Lemur_catta
+	Leopardus_geoffroyi
+	Lipotes_vexillifer
+	Lynx_canadensis
+	Macaca_fascicularis[&!color=#009933]
+	Marmota_flaviventris
+	Marmota_monax
+	Meles_meles
+	Mesoplodon_densirostris
+	Microcebus_murinus
+	Mirounga_leonina
+	Moschus_berezovskii
+	Muntiacus_muntjak
+	Muntiacus_reevesi
+	Mustela_lutreola
+	Myotis_daubentonii
+	Neofelis_nebulosa
+	Neomonachus_schauinslandi
+	Nomascus_leucogenys[&!color=#009933]
+	Odocoileus_virginianus
+	Orcinus_orca
+	Oryctolagus_cuniculus
+	Oryx_dammah
+	Ovis_aries
+	Pan_paniscus[&!color=#009933]
+	Panthera_tigris
+	Papio_anubis[&!color=#009933]
+	Phodopus_roborovskii
+	Phyllostomus_discolor
+	Physeter_macrocephalus
+	Plecturocebus_cupreus[&!color=#009933]
+	Pongo_abelii[&!color=#009933]
+	Prionailurus_bengalensis
+	Prionailurus_viverrinus
+	Propithecus_coquereli
+	Pteronotus_mesoamericanus
+	Pteropus_vampyrus
+	Rhinolophus_sinicus
+	Rhinopithecus_roxellana[&!color=#009933]
+	Rousettus_aegyptiacus
+	Saccopteryx_bilineata
+	Saccopteryx_leptura
+	Saguinus_oedipus[&!color=#009933]
+	Sapajus_apella[&!color=#009933]
+	Sciurus_carolinensis
+	Sus_scrofa
+	Trachypithecus_francoisi[&!color=#009933]
+	Tursiops_truncatus
+	Urocitellus_parryii
+	Ursus_americanus
+	Ursus_arctos
+	Ursus_maritimus
+	Vicugna_pacos
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((((((Saccopteryx_leptura:1.0E-6,Saccopteryx_bilineata:0.0)[&bootstrap=0.946]:0.008907,(Eptesicus_fuscus:0.0,Myotis_daubentonii:0.002961)[&bootstrap=0.704]:0.00293)[&bootstrap=0.666]:0.002908,Rhinolophus_sinicus:2.8E-5)[&bootstrap=0.516]:0.001564,(Pteronotus_mesoamericanus:5.93E-4,(Desmodus_rotundus:0.007802,(Phyllostomus_discolor:0.0,Artibeus_jamaicensis:0.002969)[&bootstrap=0.603]:0.001048)[&bootstrap=0.789]:0.005313)[&bootstrap=0.561]:0.004391)[&bootstrap=0.218]:0.001413,(Camelus_ferus:0.002931,(Rousettus_aegyptiacus:0.0,((Equus_przewalskii:0.005891,Vicugna_pacos:0.0)[&bootstrap=0.096]:4.0E-6,(Pteropus_vampyrus:4.0E-6,(Sus_scrofa:0.002941,Hipposideros_armiger:0.002941)[&bootstrap=0.153]:0.0)[&bootstrap=0.02]:0.0)[&bootstrap=0.049]:4.0E-6)[&bootstrap=0.048]:8.0E-6)[&bootstrap=0.045]:5.7E-5)[&bootstrap=0.016]:1.7E-5,((((Muntiacus_reevesi:2.0E-5,Muntiacus_muntjak:0.0)[&bootstrap=0.638]:9.77E-4,Dama_dama:0.001964)[&bootstrap=0.575]:6.06E-4,(Cervus_canadensis:2.3E-5,Cervus_elaphus:0.0)[&bootstrap=0.46]:8.66E-4)[&bootstrap=0.603]:0.002526,(Odocoileus_virginianus:0.0,(Moschus_berezovskii:0.002945,(Bubalus_bubalis:0.0,(Bos_mutus:0.002963,(Oryx_dammah:0.005853,Ovis_aries:4.7E-5)[&bootstrap=0.673]:0.002954)[&bootstrap=0.326]:7.0E-6)[&bootstrap=0.599]:0.002955)[&bootstrap=0.087]:1.3E-5)[&bootstrap=0.321]:4.28E-4)[&bootstrap=0.811]:0.005841)[&bootstrap=0.059]:2.62E-4,(Panthera_tigris:0.0,Prionailurus_bengalensis:1.5E-5)[&bootstrap=0.527]:0.002639)[&bootstrap=0.108]:9.1E-4,(Mesoplodon_densirostris:0.004385,(Physeter_macrocephalus:0.0,(Eubalaena_glacialis:0.002276,((((Eschrichtius_robustus:0.0,Balaenoptera_musculus:0.002945)[&bootstrap=0.441]:1.3E-5,Balaenoptera_acutorostrata:0.0)[&bootstrap=0.66]:0.002954,Lipotes_vexillifer:0.005824)[&bootstrap=0.358]:2.87E-4,(Kogia_breviceps:0.002728,(Globicephala_melas:0.002545,(Tursiops_truncatus:0.002272,Orcinus_orca:6.82E-4)[&bootstrap=0.377]:3.88E-4)[&bootstrap=0.508]:0.001677)[&bootstrap=0.3]:4.52E-4)[&bootstrap=0.262]:6.66E-4)[&bootstrap=0.321]:3.57E-4)[&bootstrap=0.529]:0.001492)[&bootstrap=0.461]:3.54E-4)[&bootstrap=0.161]:0.002344,Ursus_maritimus:0.0)[&bootstrap=0.037]:6.45E-4,(Lynx_canadensis:0.0,(Prionailurus_viverrinus:0.0,(Felis_catus:0.0,(Hyaena_hyaena:0.002935,(Leopardus_geoffroyi:0.002978,Neofelis_nebulosa:0.0)[&bootstrap=0.408]:1.9E-5)[&bootstrap=0.126]:1.1E-5)[&bootstrap=0.394]:7.33E-4)[&bootstrap=0.432]:3.93E-4)[&bootstrap=0.427]:0.002)[&bootstrap=0.059]:9.75E-4,(Callorhinus_ursinus:0.00286,(Mirounga_leonina:0.0,(Ursus_arctos:0.0,(Halichoerus_grypus:0.002941,Eumetopias_jubatus:0.002941)[&bootstrap=0.378]:1.1E-5)[&bootstrap=0.079]:8.0E-6)[&bootstrap=0.108]:7.9E-5)[&bootstrap=0.123]:3.26E-4)[&bootstrap=0.003]:3.7E-5,Mustela_lutreola:0.008505)[&bootstrap=0.133]:9.23E-4,(Meles_meles:0.001431,(Neomonachus_schauinslandi:0.001467,Ursus_americanus:0.00147)[&bootstrap=0.547]:3.7E-5)[&bootstrap=0.284]:6.21E-4)[&bootstrap=0.435]:0.003631,Oryctolagus_cuniculus:0.01017,((((Propithecus_coquereli:0.005819,Lemur_catta:0.00289)[&bootstrap=0.485]:0.002702,Microcebus_murinus:0.006113)[&bootstrap=0.463]:0.001529,Daubentonia_madagascariensis:0.001382)[&bootstrap=0.506]:0.004519,(((((Cavia_porcellus:0.006344,Dipodomys_spectabilis:0.01146)[&bootstrap=0.704]:0.003129,(Sciurus_carolinensis:0.010032,Castor_canadensis:0.004696)[&bootstrap=0.373]:0.001346)[&bootstrap=0.224]:7.43E-4,(Marmota_flaviventris:0.00205,(Marmota_monax:0.0,Urocitellus_parryii:0.001501)[&bootstrap=0.539]:8.82E-4)[&bootstrap=0.953]:0.007498)[&bootstrap=0.668]:0.005204,(Apodemus_speciosus:0.005637,Phodopus_roborovskii:3.16E-4)[&bootstrap=0.996]:0.020861)[&bootstrap=0.359]:0.002809,(((Aotus_nancymaae[&!color=#009933]:1.11E-4,Callithrix_jacchus[&!color=#009933]:0.00572)[&bootstrap=0.343,!color=#009933]:0.002773,(Sapajus_apella[&!color=#009933]:0.005872,Nomascus_leucogenys[&!color=#009933]:0.0)[&bootstrap=0.588,!color=#009933]:1.64E-4)[&bootstrap=0.463,!color=#009933]:0.002567,(((Homo_sapiens_dupelabel1[&!color=#009933]:7.2E-5,Homo_sapiens[&!color=#009933]:0.0)[&bootstrap=0.613,!color=#009933]:0.0014,Pan_paniscus[&!color=#009933]:0.004518)[&bootstrap=0.588,!color=#009933]:0.002139,(Macaca_fascicularis[&!color=#009933]:0.0,(Pongo_abelii[&!color=#009933]:0.002884,((Trachypithecus_francoisi[&!color=#009933]:0.0,Rhinopithecus_roxellana[&!color=#009933]:0.00299)[&bootstrap=0.884,!color=#009933]:0.00561,((Plecturocebus_cupreus[&!color=#009933]:0.005916,Papio_anubis[&!color=#009933]:0.0)[&bootstrap=0.403,!color=#009933]:0.001547,(Saguinus_oedipus[&!color=#009933]:0.005736,Chlorocebus_sabaeus[&!color=#009933]:1.12E-4)[&bootstrap=0.209,!color=#009933]:0.001399)[&bootstrap=0.213,!color=#009933]:0.00103)[&bootstrap=0.2,!color=#009933]:4.06E-4)[&bootstrap=0.141,!color=#009933]:7.0E-5)[&bootstrap=0.303,!color=#009933]:8.02E-4)[&bootstrap=0.428,!color=#009933]:0.002928)[&bootstrap=0.938]:0.013951)[&bootstrap=0.167]:4.3E-4)[&bootstrap=0.267]:0.001379);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=683;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=1;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
